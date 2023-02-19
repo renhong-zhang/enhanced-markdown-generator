@@ -1,0 +1,88 @@
+{
+  "__config__": {
+    "prefix": "==",
+    "suffix": ""
+  },
+  "name": "@renhong-zhang/enhanced-markdown-generator",
+  "version": "1.0.0",
+  "description": "Automatically generate a beautiful best-practice Markdown file based on the contents of your repository, such as README.md, and other files include Markdown, SVG, or HTML files with customized template",
+  "license": "GPLV3",
+  "module": "index.esm.js",
+  "main": "index.cjs.js",
+  "types": "index.d.ts",
+  "author": "Renhong Zhang",
+  "scripts": {
+    "prebuild": "node prebuild.js",
+    "rollup": "rollup",
+    "b:lib": "rollup -c && rollup -c=rollup-cli.config.js",
+    "b:lib:prebuild": "npm run prebuild && npm run b:lib",
+    "readme": "npm run b:lib && npm run generate:readme",
+    "generate:readme": "node dist/cli.cjs.js generate",
+    "refresh": "npm run b:lib:prebuild",
+    "refresh:generate": "npm run refresh && npm run generate:readme",
+    "publish": "cd dist && npm publish --access=public && cd ..",
+    "git:add:commit:push": "git add . && git commit --no-edit --amend --no-verify && git push",
+    "bump:patch": "npm version patch && npm run git:add:commit:push",
+    "bump:minor": "npm version minor && npm run git:add:commit:push",
+    "bump:major": "npm version major && npm run git:add:commit:push",
+    "publish:patch": "npm run bump:patch && npm run b:lib:prebuild && npm run publish",
+    "publish:minor": "npm run bump:minor && npm run b:lib:prebuild && npm run publish",
+    "publish:major": "npm run bump:major && npm run b:lib:prebuild && npm run publish",
+    "push:readme": "npm run readme && git add . && git commit -m 'New readme' && git push",
+    "ncu": "ncu -u -a && npm update && npm install"
+  },
+  "bugs": {
+    "url": "https://github.com/renhong-zhang/enhanced-markdown-generator/issues"
+  },
+  "homepage": "https://github.com/renhong-zhang/enhanced-markdown-generator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renhong-zhang/enhanced-markdown-generator"
+  },
+  "keywords": [
+    "opensource",
+    "project",
+    "readme",
+    "template",
+    "boilerplate",
+    "nodejs",
+    "maintaining",
+    "generator",
+    "plaintext",
+    "json"
+  ],
+  "contributors": [
+    "Renhong Zhang (https://github.com/renhong-zhang)"
+  ],
+  "bin": {
+    "mdgen": "./dist/cli.cjs.js"
+  },
+  "dependencies": {
+    "@types/babel__traverse": "7.18.2",
+    "@types/glob": "^7.2.0",
+    "check-links": "^1.1.8",
+    "colors": "^1.4.0",
+    "commander": "^5.1.0",
+    "glob": "^7.2.3",
+    "path": "^0.12.7",
+    "typescript": "3.9.10",
+    "web-component-analyzer": "^1.1.6"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/fs-extra": "^8.1.2",
+    "@types/lodash": "^4.14.191",
+    "@wessberg/rollup-plugin-ts": "^1.3.14",
+    "fs-extra": "^11.1.0",
+    "lodash": "^4.17.21",
+    "ramda": "^0.28.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.79.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "ts-transformer-keys": "^0.4.4",
+    "@rollup/pluginutils": "4.2.1",
+    "@types/node": "18.11.18"
+  }
+}
