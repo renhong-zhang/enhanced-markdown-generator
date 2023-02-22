@@ -51,7 +51,7 @@ JSON: package: "package.json" -->
 </table>
 </p>
 
-<p align="center"><a href="#table-of-contents"><img align="center" width="100%" height="5px" src="assets/line.svg"/></a></p>
+<p align="center"><a href="#table-of-contents"><img align="center" width="100%" src="assets/line.svg"/></a></p>
 
 <details open>
 	<summary><big><b>Table of Contents</big></b></summary>
@@ -91,7 +91,7 @@ JSON: package: "package.json" -->
 	</ol>
 </details>
 
-<p align="center"><a href="#demo"><img align="center" width="100%" height="5px" src="assets/line.svg"/></a></p>
+<p align="center"><a href="#demo"><img align="center" width="100%" src="assets/line.svg"/></a></p>
 
 
 
@@ -100,7 +100,7 @@ JSON: package: "package.json" -->
 
 <p align="center"><a href="assets/demo.gif"><img align="center" width="800px" src="assets/demo.gif" alt="demo" /></a></p>
 
-<p align="center"><a href="#about-the-project"><img align="center" width="100%" height="5px" src="assets/line.svg"/></a></p>
+<p align="center"><a href="#about-the-project"><img align="center" width="100%" src="assets/line.svg"/></a></p>
 
 
 
@@ -125,7 +125,7 @@ When I worked on multiple projects simultaneously, the complexity of updating in
 </table>
 </p>
 
-<p align="center"><a href="#getting-started"><img align="center" width="100%" height="5px" src="assets/line.svg"/></a></p>
+<p align="center"><a href="#getting-started"><img align="center" width="100%" src="assets/line.svg"/></a></p>
 
 
 
@@ -157,7 +157,7 @@ cd Enhanced_Markdown_Generator
 ./uninstall.sh && ./install.sh
 ```
 
-<p align="center"><a href="#usage"><img align="center" width="100%" height="5px" src="assets/line.svg"/></a></p>
+<p align="center"><a href="#usage"><img align="center" width="100%" src="assets/line.svg"/></a></p>
 
 
 
@@ -663,7 +663,7 @@ The `_data_` refers to the exported data.
 
 With `{-- template:toc --}`, a foldable TOC is generated as below, click the little triangle to fold and unfold it:
 
-<p align="center"><a href="#table-of-contents"><img align="center" width="100%" height="5px" src="assets/line.svg"/></a></p>
+<p align="center"><a href="#table-of-contents"><img align="center" width="100%" src="assets/line.svg"/></a></p>
 
 <details open>
 	<summary><big><b>Table of Contents</big></b></summary>
@@ -743,7 +743,7 @@ The key of configurations of `mdgen` is as shown below:
 | --extend              | string                                           | Path to another configuration object that should be extended. |
 | --checkLinks          | boolean                                          | Checks all links for aliveness after the README file has been generated. |
 
-<p align="center"><a href="#roadmap"><img align="center" width="100%" height="5px" src="assets/line.svg"/></a></p>
+<p align="center"><a href="#roadmap"><img align="center" width="100%" src="assets/line.svg"/></a></p>
 
 
 
@@ -761,7 +761,7 @@ The key of configurations of `mdgen` is as shown below:
 
 See the [open issues](https://github.com/renhong-zhang/enhanced-markdown-generator/issues) for a full list of proposed features (and known issues).
 
-<p align="center"><a href="#changelog"><img align="center" width="100%" height="5px" src="assets/line.svg"/></a></p>
+<p align="center"><a href="#changelog"><img align="center" width="100%" src="assets/line.svg"/></a></p>
 
 
 
@@ -770,7 +770,7 @@ See the [open issues](https://github.com/renhong-zhang/enhanced-markdown-generat
 
 Detailed changes for each release are documented in the [release notes](https://github.com/renhong-zhang/enhanced-markdown-generator/releases).
 
-<p align="center"><a href="#code-contributors"><img align="center" width="100%" height="5px" src="assets/line.svg"/></a></p>
+<p align="center"><a href="#code-contributors"><img align="center" width="100%" src="assets/line.svg"/></a></p>
 
 
 
@@ -780,7 +780,7 @@ Thank you to all the people who already contributed to Enhanced Markdown Generat
 <a href="https://github.com/renhong-zhang/enhanced-markdown-generator/contributors"><img
     src="https://opencollective.com/enhanced-markdown-generator/contributors.svg?width=890" /></a>
 
-<p align="center"><a href="#contributing"><img align="center" width="100%" height="5px" src="assets/line.svg"/></a></p>
+<p align="center"><a href="#contributing"><img align="center" width="100%" src="assets/line.svg"/></a></p>
 
 
 
@@ -802,7 +802,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 4. Push to the Branch (`git push origin feature/NewFeature`)
 5. Open a Pull Request
 
-<p align="center"><a href="#author-"><img align="center" width="100%" height="5px" src="assets/line.svg"/></a></p>
+<p align="center"><a href="#author-"><img align="center" width="100%" src="assets/line.svg"/></a></p>
 
 
 
@@ -823,7 +823,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 </table>
 </p>
 
-<p align="center"><a href="#how-can-i-support-you"><img align="center" width="100%" height="5px" src="assets/line.svg"/></a></p>
+<p align="center"><a href="#how-can-i-support-you"><img align="center" width="100%" src="assets/line.svg"/></a></p>
 
 
 
@@ -832,7 +832,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 There are lots of ways to support me! I would be so happy if you give any of my repositories a ⭐️, and tell your friends about this little corner of the Internet
 
-<p align="center"><a href="#acknowledgments"><img align="center" width="100%" height="5px" src="assets/line.svg"/></a></p>
+<p align="center"><a href="#acknowledgments"><img align="center" width="100%" src="assets/line.svg"/></a></p>
 
 
 
@@ -841,7 +841,7 @@ There are lots of ways to support me! I would be so happy if you give any of my 
 
 * [andreasbm/readme: Automatically generate a beautiful best-practice README file based on the contents of your repository](https://github.com/andreasbm/readme): Thanks to the basic code framework of this project
 
-<p align="center"><a href="#license"><img align="center" width="100%" height="5px" src="assets/line.svg"/></a></p>
+<p align="center"><a href="#license"><img align="center" width="100%" src="assets/line.svg"/></a></p>
 
 
 
