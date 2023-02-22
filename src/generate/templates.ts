@@ -54,7 +54,8 @@ export function lineTemplate ({config}: LineTemplateArgs) {
 	}
 
 	// return `![-----------------------------------------------------](${url})`;
-	return `<img align=\"center\" width="100%" height="5px" src="${url}"/>`
+	// return `<img align=\"center\" width="100%" height="5px" src="${url}"/>`
+	return `<img align=\"center\" width="100%" src="${url}"/>`
 }
 
 /**
