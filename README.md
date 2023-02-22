@@ -750,14 +750,10 @@ The key of configurations of `mdgen` is as shown below:
 ## Roadmap
 
 
-- [ ] Use Command in Json Like the Terminal Its Result Auto Stores in Json as Text
-- [ ] Input a Folder or List of Blueprint Md Files Output to New Files with Relative Files with Name Setup in Customized Formatter
-- [ ] Nested Load Files in Blueprint
-- [ ] Syntax for Formatter and in Json
-- [ ] Escape Prefix and Suffix
-- [ ] Format Property of Formatter Could Accept Formatter Obj So the Format Could Be More Flexible
-- [ ] Pipe Cmd Process the Output Text with Sub Cell Process Syntax and Sign
-- [ ] If a Comment of Ref Code Starts with Its Value Appears in the TOC
+- [ ] Nested load files in `blueprint.md`
+- [ ] Escape prefix and suffix
+- [ ] `format` property of formatter could accept formatter obj, so the format could be even more flexible
+- [ ] Pipe-cmd: process the output text with sub-cell-process syntax and sign `::`
 
 See the [open issues](https://github.com/renhong-zhang/enhanced-markdown-generator/issues) for a full list of proposed features (and known issues).
 

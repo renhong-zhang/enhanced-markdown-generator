@@ -6,7 +6,7 @@ JSON: config data: "config_data.json"
 JSON: package: "package.json" -->
 
 
-<p align="center"><a href="#table-of-contents"><img align="center" width="100%" height="5px" src="assets/example_line.svg"/></a></p>
+<p align="center"><a href="#table-of-contents"><img align="center" width="100%" src="assets/example_line.svg"/></a></p>
 
 <details open>
 	<summary><big><b>Table of Contents</big></b></summary>
