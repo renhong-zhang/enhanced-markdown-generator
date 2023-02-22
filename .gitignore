@@ -9,6 +9,10 @@
 *.bak
 readme/
 .gen*
+_Mail/
+init_gitconfig
+initws_template
+*.drawio
 
 
 # ~BEGIN: Language: vscode
@@ -404,11 +408,11 @@ FodyWeavers.xsd
 
 
 # ~BEGIN: Ignore paths added from my Template Tool
-_Config/
+# _Config/
 _README/
-_Bin
+# _Bin
 _Test
-_Template/
+# _Template/
 _Assets/
 _Temp/
 # ~END

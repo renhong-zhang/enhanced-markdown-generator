@@ -1,0 +1,361 @@
+{
+	"__config__": {
+		"_prefix": "$$",
+		"_suffix": ""
+	},
+	"owner": {
+		"id": {
+			"github": "renhong-zhang"
+		},
+		"name": "Renhong Zhang",
+		"mail": "renhong.zhang@outlook.com"
+	},
+	"name": "Enhanced Markdown Generator",
+	"id_name": {
+		"__formatter__": {
+			"format": "{--temp_name:kebabcase--}"
+		},
+		"name": {
+			"$$temp_name": "name"
+		}
+	},
+	"dir_name": {
+		"__formatter__": {
+			"format": "{--temp_name:snakepascalcase--}"
+		},
+		"name": {
+			"$$temp_name": "name"
+		}
+	},
+	"--description": "pkg.description",
+	"abstract": "Temp Abstract",
+	"year": "2023",
+	"placeholder": [
+		"[--",
+		"--]"
+	],
+	"background-color-gradient": {
+		"__formatter__": {
+			"**format": "format.color",
+			"delimiter": ", "
+		},
+		"main": "008bd0",
+		"mid": "5796c7",
+		"sub": "123363"
+	},
+	"text-color": {
+		"__formatter__": {
+			"**format": "format.color",
+			"delimiter": ", "
+		},
+		"text": "fed001"
+	},
+	"asset": {
+		"logo": {
+			"--src": "@.markdown-generator.img",
+			"width": "300px",
+			"height": "150px",
+			"markdown-generator": {
+				"alt": "Markdown-generator",
+				"img": {
+					"__formatter__": {
+						"{{format}}": "shield-ext",
+						"delimiter": ""
+					},
+					"temp": {
+						"grey_text": "",
+						"color_text": "mdgen",
+						"color": {
+							"__formatter__": {
+								"{{format}}": "color",
+								"delimiter": ""
+							},
+							"$$temp": "background-color-gradient.main"
+						},
+						"logo_id": "Markdown",
+						"$$logo_color": "text-color.text"
+					}
+				},
+				"url": ""
+			}
+		},
+		"doc": {
+			"link": ""
+		},
+		"license": {
+			"~~data": "gplv3",
+			"badge": {
+				"__formatter__": {
+					"[[format]]": "badge-alt",
+					"delimiter": ""
+				},
+				"--info": "@.<.data.info"
+			}
+		},
+		"demo": {
+			"__formatter__": {
+				"**format": "format.image",
+				"delimiter": "\n"
+			},
+			"demo0": {
+				"alt": "demo",
+				"img": "assets/demo.gif",
+				"url": "assets/demo.gif"
+			}
+		}
+	},
+	"github": {
+		"__formatter__": {
+			"format": "https://github.com/{--user:encode--}/{--project_id_name--}/{--dir--}",
+			"delimiter": "\n"
+		},
+		"home": {
+			"name": "Homepage",
+			"$$user": "owner.id.github",
+			"$$project_id_name": "id_name",
+			"dir": ""
+		},
+		"issue": {
+			"name": "Issues",
+			"$$user": "owner.id.github",
+			"$$project_id_name": "id_name",
+			"dir": "issues"
+		},
+		"release": {
+			"name": "Releases",
+			"$$user": "owner.id.github",
+			"$$project_id_name": "id_name",
+			"dir": "releases"
+		},
+		"contributor": {
+			"name": "Contributors",
+			"$$user": "owner.id.github",
+			"$$project_id_name": "id_name",
+			"dir": "contributors"
+		},
+		"contributor-md": {
+			"name": "Contributing_Markdown",
+			"$$user": "owner.id.github",
+			"$$project_id_name": "id_name",
+			"dir": "blob/dev/.github/CONTRIBUTING.md"
+		}
+	},
+	"prerequisites": {
+		"__formatter__": {
+			"[[format]]": "badge-main",
+			"delimiter": " "
+		},
+		"**npm": "ref-badge.npm"
+	},
+	"language-n-tool": {
+		"__formatter__": {
+			"[[format]]": "badge-main",
+			"delimiter": " "
+		},
+		"**ts": "ref-badge.typescript",
+		"**md": "ref-badge.markdown"
+	},
+	"develop-state": {
+		"__formatter__": {
+			"[[format]]": "badge-alt",
+			"delimiter": " "
+		},
+		"maintained": {
+			"alt": "Maintained",
+			"img": "https://img.shields.io/badge/Maintained%3F-yes-green.svg?",
+			"url": {
+				"__formatter__": {
+					"format": "https://github.com/{-- user --}/{-- project_id_name --}/graphs/commit-activity",
+					"delimiter": ""
+				},
+				"info": {
+					"$$user": "owner.id.github",
+					"$$project_id_name": "id_name"
+				}
+			}
+		}
+	},
+	"major-dependencies": {
+		"__formatter__": {
+			"[[format]]": "badge-main",
+			"delimiter": "<br>"
+		},
+		"++npm": "npm",
+		"++ts": "typescript"
+	},
+	"acknowledgement": {
+		"__formatter__": {
+			"**format": "format.acknowledgement",
+			"delimiter": "\n"
+		}
+	},
+	"line": "example_line",
+	"headingPrefix": {
+		"1": "",
+		"2": "",
+		"3": "",
+		"4": "",
+		"5": ""
+	},
+	"documentationConfig": {
+		"markdown": {
+			"titleLevel": 2
+		}
+	},
+	"head_svg": {
+		"__formatter__": {
+			"->format": "_Template/user_name__type_gradient.svg",
+			"delimiter": " "
+		},
+		"info": {
+			"$$name": "owner.name",
+			"color": {
+				"$$text": "text-color",
+				"$$background": "background-color-gradient"
+			}
+		}
+	},
+	"cutline_svg": {
+		"__formatter__": {
+			"->format": "_Template/cutline_dynamic.svg",
+			"delimiter": " "
+		},
+		"info": {
+			"$$name": "owner.name",
+			"color": {
+				"$$text": "text-color",
+				"$$background": "background-color-gradient"
+			}
+		}
+	},
+	"skill-set": {
+		"__formatter__": {
+			"[[format]]": "badge-main",
+			"delimiter": " "
+		},
+		"**project-management": "ref-badge.project-management",
+		"**c": "ref-badge.c",
+		"**cpp": "ref-badge.cpp",
+		"**stm32": "ref-badge.stm32",
+		"**raspberry-pi": "ref-badge.raspberry-pi",
+		"**arduino": "ref-badge.arduino",
+		"**matlab": "ref-badge.matlab",
+		"**simulink": "ref-badge.simulink",
+		"**python": "ref-badge.python",
+		"**tensorflow": "ref-badge.tensorflow",
+		"**pytorch": "ref-badge.pytorch",
+		"**latex": "ref-badge.latex",
+		"**linux": "ref-badge.linux",
+		"**shell_script": "ref-badge.shell_script",
+		"**applescript": "ref-badge.applescript",
+		"**typescript": "ref-badge.typescript",
+		"**allegro": "ref-badge.allegro",
+		"**solidworks": "ref-badge.solidworks",
+		"**sqlite": "ref-badge.sqlite",
+		"**uml": "ref-badge.uml"
+	},
+	"FORMATS": {
+		"__config__": {
+			"prefix": "[[",
+			"suffix": "]]"
+		},
+		"**ext-image": "format.ext-image",
+		"**ext-empty": "format.ext-empty",
+		"**badge-main": "format.badge-flat",
+		"**badge-alt": "format.badge-plastic"
+	},
+	"cheatsheet": {
+		"=>generator": "_Config/_generator_cheatsheet.json"
+	},
+	"EXAMPLE": {
+		"text": "Test Text Reference",
+		"array": [
+			"Test",
+			"Array",
+			"Reference"
+		],
+		"array-2D": [
+			[
+				"col 1",
+				"col 2"
+			],
+			[
+				"value 1-1",
+				"value 1-2"
+			],
+			[
+				"value 2-1",
+				"value 2-2"
+			]
+		],
+		"dict": {
+			"key-0": "value 0",
+			"key-1": "value 1",
+			"key-2": "value 2"
+		}
+	},
+	"EXAMPLE-ref-target": {
+		"__config__": {
+			"prefix": "<<",
+			"suffix": ">>"
+		},
+		"$$temp-key": "$$EXAMPLE"
+	},
+	"<<EXAMPLE-ref>>": "temp-key.dict",
+	"EXAMPLE-table": {
+		"__formatter__": {
+			"{{format}}": "table",
+			"delimiter": "\n"
+		},
+		"proj": {
+			"$$rows": "projects-table",
+			"head-row": {
+				"__formatter__": {
+					"{{format}}": "table-row",
+					"delimiter": "\n"
+				},
+				"temp": {
+					"row": {
+						"__formatter__": {
+							"{{format}}": "table-cell-bold",
+							"delimiter": ""
+						},
+						"col-1": "Project Link",
+						"col-2": "Relative Skills"
+					}
+				}
+			}
+		}
+	},
+	"EXAMPLE-exporter": {
+		"format-escape": {
+			"__formatter__": {
+				"format": "{-- text:escape --}",
+				"delimiter": ""
+			},
+			"[[fmt]]": "ext-image"
+		}
+	},
+    "TODO": {
+		"__formatter__": {
+			"format": "- [{-- done:lower --}] {-- todo:title --}",
+			"delimiter": "\n"
+		},
+		"terminal": {
+			"done": " ",
+			"todo": "Event A"
+		},
+		"batch-process": {
+			"done": "x",
+			"todo": "Event B"
+		},
+		"nest-load": {
+			"todo": "Event C",
+			"done": " "
+		},
+		"base64-formatter": {
+			"todo": "Event D",
+			"done": "x"
+		}
+    }
+}

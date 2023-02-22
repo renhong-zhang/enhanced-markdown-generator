@@ -5,12 +5,16 @@
   },
   "name": "@renhong-zhang/enhanced-markdown-generator",
   "version": "1.0.0",
-  "description": "Automatically generate a beautiful best-practice Markdown file based on the contents of your repository, such as README.md, and other files include Markdown, SVG, or HTML files with customized template",
+  "description": "Create gorgeous markdown files with data specified in json files, beautiful badges, svgs, and any other elements you desire in a simple way.",
   "license": "GPLV3",
   "module": "index.esm.js",
   "main": "index.cjs.js",
   "types": "index.d.ts",
   "author": "Renhong Zhang",
+  "engines" : { 
+    "npm" : ">=9.2.0 <9.3.0",
+    "node" : ">=19.4.0 <19.5.0"
+  },
   "scripts": {
     "prebuild": "node prebuild.js",
     "rollup": "rollup",
@@ -58,6 +62,7 @@
     "mdgen": "./dist/cli.cjs.js"
   },
   "dependencies": {
+    "@babel/core": "7.20.12",
     "@types/babel__traverse": "7.18.2",
     "@types/glob": "^7.2.0",
     "check-links": "^1.1.8",

@@ -435,6 +435,12 @@ export class Obj {
         return JSON.stringify(this.value_, null, 4);
     }
 
+    ToJSON_TextProcessed() {
+        let temp_cell_value = Cloneable.DeepCopy(this.value_)
+        temp_cell_value = ConvertNestedNumberedDictToList(temp_cell_value)
+        return JSON.stringify(temp_cell_value, null, 4);
+    }
+
 }
 
 export class Cell extends Obj {
@@ -1578,11 +1584,11 @@ export class Formatter {
             if (temp_formatter.IsSet()) {
                 result_string = temp_formatter.ToString()
             } else {
-                result_string = cell.ToJSON_Text() //! Temp Solution
+                result_string = cell.ToJSON_TextProcessed() //! Temp Solution
             }
         } else if (IsArray(temp_value)) {
             // TODO: Process Array to Text
-            result_string = cell.ToJSON_Text() //! Temp Solution
+            result_string = cell.ToJSON_TextProcessed() //! Temp Solution
         } else if (IsString(temp_value)) {
             result_string = temp_value
         } else {
@@ -1654,6 +1660,14 @@ export class Formatter {
                 return result_string
             }
 
+            // * Escape Double Quote
+            function EscapeDoubleQuote(str:any) {
+                let temp_replace_text = String(str);
+                temp_replace_text = JSON.stringify(temp_replace_text);
+                temp_replace_text = temp_replace_text.slice(1, temp_replace_text.length-1)
+                return temp_replace_text
+            }
+
             // ~Loop through each instruction
             // * p1 is the path of target, p2 is the post process pipe of the text
             testlog(`match: ${match}; p1: ${p1}; p2: ${p2};`);
@@ -1672,7 +1686,7 @@ export class Formatter {
             replace_text = Formatter.ProcessCellToString(replace_cell)
             testlog(replace_text, "FormatSubCell-replace_text", DEBUG_CLASSES_IF_LOG_SILENT)
 
-            testlog(`\nTEST0010 replace_text: "${replace_text}"`);
+            testlog(`\nTEST0010 replace_text: "${replace_text}"`,DEBUG_CLASSES_IF_LOG_SILENT);
             replace_text = String(replace_text);
             // * check if a configuration string found
             let has_configuration = (process_pipe_str != null);
@@ -1717,7 +1731,7 @@ export class Formatter {
                         case "id": {
                             // *Convert to be used as GitHub id, and also in filename
                             // TODO: if all uppercase, not preserve
-                            replace_text = RemoveSpecial(replace_text, false);
+                            replace_text = RemoveSpecial(replace_text, false).trim();
                             replace_text = replace_text.replace(/ /g, '-');
                             break;
                         }
@@ -1733,6 +1747,22 @@ export class Formatter {
                         }
                         case "encode": {
                             replace_text = encodeURIComponent(replace_text);
+                            break;
+                        }
+                        case "decode": {
+                            replace_text = decodeURIComponent(replace_text);
+                            break;
+                        }
+                        case "encode-base64": {
+                            replace_text = Buffer.from(replace_text).toString('base64');
+                            break;
+                        }
+                        case "decode-base64": {
+                            replace_text = Buffer.from(replace_text,'base64');
+                            break;
+                        }
+                        case "escape": {
+                            replace_text = EscapeDoubleQuote(replace_text);
                             break;
                         }
                         default: {

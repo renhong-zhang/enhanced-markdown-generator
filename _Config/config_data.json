@@ -1,0 +1,3781 @@
+{
+    "__config__": {
+        "_prefix": "**",
+        "_suffix": ""
+    },
+    "format": {
+        "__config__": {
+            "prefix": "{{",
+            "suffix": "}}"
+        },
+        "acknowledgement": "* [{-- title --}]({-- url --}): {-- text --}",
+        "--badge": "@.badge-flat",
+        "--badge-alt": "@.badge-plastic",
+        "badge-none": "<a href=\"{--url--}\"><img alt=\"{--alt--}\" src=\"{--img--}\" height=\"20\" /></a>",
+        "badge-style": "<a href=\"{--url--}\"><img alt=\"{--alt--}\" src=\"{--img--}&style=for-the-badge\" height=\"20\" /></a>",
+        "badge-flat": "<a href=\"{--url--}\"><img alt=\"{--alt--}\" src=\"{--img--}&style=flat\" height=\"20\" /></a>",
+        "badge-square": "<a href=\"{--url--}\"><img alt=\"{--alt--}\" src=\"{--img--}&style=flat-square\" height=\"20\" /></a>",
+        "badge-plastic": "<a href=\"{--url--}\"><img alt=\"{--alt--}\" src=\"{--img--}&style=plastic\" height=\"20\" /></a>",
+        "image": "\n<p align=\"center\"><a href=\"{--url--}\"><img align=\"center\" width=\"800px\" src=\"{--img--}\" alt=\"{--alt--}\" /></a></p>\n",
+        "image-full": "\n<div align=\"center\">\n<p align=\"center\"><a href=\"{--url--}\"><img align=\"center\" width=\"100%\" src=\"{--img--}\" alt=\"{--alt--}\" /></a></p>\n</div>\n",
+        "image-button": "<br>\n<div align=\"center\">\n  <a href=\"{-- url --}\"><img alt=\"{-- alt --}\" width=\"40%\"\n      src=\"{-- img --}\"></a>\n</div>\n<br>",
+        "shield": "https://img.shields.io/badge/{-- grey_text:encode --}-{-- color_text:encode --}-{-- color --}?",
+        "shield-ext": "https://img.shields.io/badge/{-- grey_text:encode --}-{-- color_text:encode --}-{-- color:color-hex-code --}?&logo={-- logo_id:encode --}&logoColor={-- logo_color:color-hex-code --}",
+        "ext-image": "\n<p align=\"center\"><a href=\"{--url--}\"><img width=\"100%\" align=\"center\" src=\"{--_path_.rela--}\" alt=\"{--alt--}\" /></a></p>\n",
+        "ext-empty": "<!--Use this to Generate File-->\n<!--File Generated at Path: \"{--_path_.rela--}\"-->",
+        "github-user": "https://github.com/{--user:encode--}",
+        "color": "#{--hex:upper--}",
+        "table-cell": "<td>{-- cell --}</td>",
+        "table-cell-bold": "<td><b>{-- cell --}</b></td>",
+        "table-row": "<tr>{-- row --}</tr>",
+        "table": "<p align=\"center\">\n<table align=\"center\" border=\"0\" width=\"100%\" id=\"badge\" cellspacing=\"0\" cellpadding=\"0\">\n  {--head-row--}\n  {--rows--}\n</table>\n</p>",
+        "shield-github": "https://img.shields.io/static/v1?label=&message={-- id_name:encode --}&color=123557&logo=github&logoColor=FFFFFF&labelColor=000605",
+        "github-repo": "https://github.com/{--user:encode--}/{--id_name:encode--}"
+    },
+    "license": {
+        "__config__": {
+            "prefix": "~~",
+            "suffix": ""
+        },
+        "mit": {
+            "name": "MIT",
+            "link": "https://opensource.org/licenses/MIT",
+            "year": 2022,
+            "info": {
+                "alt": "License: MIT",
+                "img": "https://img.shields.io/badge/license-MIT-yellow?!!!!",
+                "url": "https://opensource.org/licenses/MIT"
+            }
+        },
+        "gplv3": {
+            "name": "GNU General Public License version 3",
+            "link": "https://opensource.org/licenses/GPL-3.0",
+            "year": 2022,
+            "info": {
+                "alt": "License: GNU GPL v3.0",
+                "img": {
+                    "__formatter__": {
+                        "{{format}}": "shield",
+                        "delimiter": ""
+                    },
+                    "info": {
+                        "grey_text": "License",
+                        "color_text": "GNU GPL v3.0",
+                        "color": "yellow"
+                    }
+                },
+                "url": "https://opensource.org/licenses/GPL-3.0"
+            }
+        }
+    },
+    "ref-badge": {
+        "__config__": {
+            "prefix": "++",
+            "suffix": ""
+        },
+        "1001tracklists": {
+            "alt": "1001tracklists",
+            "img": "https://img.shields.io/badge/1001tracklists-40AEF0?logo=1001tracklists&logoColor=white",
+            "url": "#"
+        },
+        "academia": {
+            "alt": "Academia",
+            "img": "https://img.shields.io/badge/Academia-fff?logo=academia&logoColor=black",
+            "url": "#"
+        },
+        "acer-aspire-5": {
+            "alt": "acer Aspire 5",
+            "img": "https://img.shields.io/badge/acer%20Aspire%205-83B81A?logo=acer&logoColor=white",
+            "url": "#"
+        },
+        "acer-laptop": {
+            "alt": "acer laptop",
+            "img": "https://img.shields.io/badge/acer%20laptop-83B81A?logo=acer&logoColor=white",
+            "url": "#"
+        },
+        "adafruit": {
+            "alt": "adafruit",
+            "img": "https://img.shields.io/badge/adafruit-000000?logo=adafruit&logoColor=white",
+            "url": "#"
+        },
+        "adobe-after-affects": {
+            "alt": "Adobe after affects",
+            "img": "https://img.shields.io/badge/Adobe%20after%20affects-CF96FD?logo=Adobe%20after%20effects&logoColor=393665",
+            "url": "#"
+        },
+        "adobe-creative-cloud": {
+            "alt": "Adobe Creative Cloud",
+            "img": "https://img.shields.io/badge/Adobe%20Creative%20Cloud-DA1F26?logo=Adobe%20Creative%20Cloud&logoColor=white",
+            "url": "#"
+        },
+        "adobe-dreamweaver": {
+            "alt": "Adobe Dreamweaver",
+            "img": "https://img.shields.io/badge/Adobe%20Dreamweaver-072401?logo=Adobe%20Dreamweaver&logoColor=34F400",
+            "url": "#"
+        },
+        "adobe-illustrator": {
+            "alt": "Adobe Illustrator",
+            "img": "https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?logo=adobe%20illustrator&logoColor=white",
+            "url": "#"
+        },
+        "adobe-indesign": {
+            "alt": "Adobe InDesign",
+            "img": "https://img.shields.io/badge/Adobe%20InDesign-FF3366?logo=Adobe%20InDesign&logoColor=white",
+            "url": "#"
+        },
+        "adobe-lightroom": {
+            "alt": "Adobe Lightroom",
+            "img": "https://img.shields.io/badge/Adobe%20Lightroom-31A8FF?logo=Adobe%20Lightroom&logoColor=white",
+            "url": "#"
+        },
+        "adobe-photoshop": {
+            "alt": "Adobe Photoshop",
+            "img": "https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?logo=Adobe%20Photoshop&logoColor=black",
+            "url": "#"
+        },
+        "adobe-premiere-pro": {
+            "alt": "Adobe Premiere Pro",
+            "img": "https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF?logo=Adobe%20Premiere%20Pro&logoColor=white",
+            "url": "#"
+        },
+        "adobe-xd": {
+            "alt": "Adobe XD",
+            "img": "https://img.shields.io/badge/Adobe%20XD-470137?logo=Adobe%20XD&logoColor=#FF61F6",
+            "url": "#"
+        },
+        "adonis-js": {
+            "alt": "adonis js",
+            "img": "https://img.shields.io/badge/adonis%20js-220052?logo=adonisjs&logoColor=white",
+            "url": "#"
+        },
+        "affinitydesginer": {
+            "alt": "affinitydesginer",
+            "img": "https://img.shields.io/badge/affinitydesginer-%231B72BE.svg?logo=affinity-designer&logoColor=white",
+            "url": "#"
+        },
+        "affinityphoto": {
+            "alt": "affinityphoto",
+            "img": "https://img.shields.io/badge/affinityphoto-%237E4DD2.svg?logo=affinity-photo&logoColor=white",
+            "url": "#"
+        },
+        "aiqfome": {
+            "alt": "Aiqfome",
+            "img": "https://img.shields.io/badge/Aiqfome-7A1FA2?logo=aiqfome&logoColor=white",
+            "url": "#"
+        },
+        "airflow": {
+            "alt": "Airflow",
+            "img": "https://img.shields.io/badge/Airflow-017CEE?logo=Apache%20Airflow&logoColor=white",
+            "url": "#"
+        },
+        "airtable": {
+            "alt": "Airtable",
+            "img": "https://img.shields.io/badge/Airtable-18BFFF?logo=Airtable&logoColor=white",
+            "url": "#"
+        },
+        "alacritty": {
+            "alt": "alacritty",
+            "img": "https://img.shields.io/badge/alacritty-F46D01?logo=alacritty&logoColor=white",
+            "url": "#"
+        },
+        "alibaba_cloud": {
+            "alt": "Alibaba_Cloud",
+            "img": "https://img.shields.io/badge/Alibaba_Cloud-FF6A00?logo=alibabacloud&logoColor=white",
+            "url": "#"
+        },
+        "alipay": {
+            "alt": "alipay",
+            "img": "https://img.shields.io/badge/alipay-00A1E9?logo=alipay&logoColor=white",
+            "url": "#"
+        },
+        "alpine-js": {
+            "alt": "Alpine JS",
+            "img": "https://img.shields.io/badge/Alpine%20JS-8BC0D0?logo=alpinedotjs&logoColor=black",
+            "url": "#"
+        },
+        "alpine_linux": {
+            "alt": "Alpine_Linux",
+            "img": "https://img.shields.io/badge/Alpine_Linux-0D597F?logo=alpine-linux&logoColor=white",
+            "url": "#"
+        },
+        "altium-designer": {
+            "alt": "altium designer",
+            "img": "https://img.shields.io/badge/altium%20designer-A5915F?logo=altium%20designer&logoColor=white",
+            "url": "#"
+        },
+        "amazon-dynamodb": {
+            "alt": "Amazon DynamoDB",
+            "img": "https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?logo=Amazon%20DynamoDB&logoColor=white",
+            "url": "#"
+        },
+        "amazon-pay": {
+            "alt": "amazon pay",
+            "img": "https://img.shields.io/badge/amazon%20pay-F79114?logo=amazon%20pay&logoColor=white",
+            "url": "#"
+        },
+        "amazon-prime": {
+            "alt": "Amazon Prime",
+            "img": "https://img.shields.io/badge/Amazon%20Prime-00A8E1?logo=netflix&logoColor=white",
+            "url": "#"
+        },
+        "amazon_aws": {
+            "alt": "Amazon_AWS",
+            "img": "https://img.shields.io/badge/Amazon_AWS-FF9900?logo=amazonaws&logoColor=white",
+            "url": "#"
+        },
+        "amd-radeon_rx_5500": {
+            "alt": "AMD Radeon_RX_5500",
+            "img": "https://img.shields.io/badge/AMD%20Radeon_RX_5500-ED1C24?logo=amd&logoColor=white",
+            "url": "#"
+        },
+        "amd-ryzen_7_3800x": {
+            "alt": "AMD Ryzen_7_3800X",
+            "img": "https://img.shields.io/badge/AMD%20Ryzen_7_3800X-ED1C24?logo=amd&logoColor=white",
+            "url": "#"
+        },
+        "amp": {
+            "alt": "Amp",
+            "img": "https://img.shields.io/badge/Amp-000?logo=amp&logoColor=005AF0",
+            "url": "#"
+        },
+        "android": {
+            "alt": "Android",
+            "img": "https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white",
+            "url": "#"
+        },
+        "android_studio": {
+            "alt": "Android_Studio",
+            "img": "https://img.shields.io/badge/Android_Studio-3DDC84?logo=android-studio&logoColor=white",
+            "url": "#"
+        },
+        "angellist": {
+            "alt": "AngelList",
+            "img": "https://img.shields.io/badge/AngelList-000000?logo=AngelList&logoColor=white",
+            "url": "#"
+        },
+        "angular": {
+            "alt": "Angular",
+            "img": "https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white",
+            "url": "#"
+        },
+        "angularjs": {
+            "alt": "AngularJS",
+            "img": "https://img.shields.io/badge/AngularJS-E23237?logo=angularjs&logoColor=white",
+            "url": "#"
+        },
+        "anilist": {
+            "alt": "AniList",
+            "img": "https://img.shields.io/badge/AniList-02A9FF?logo=AniList&logoColor=white",
+            "url": "#"
+        },
+        "ansible": {
+            "alt": "Ansible",
+            "img": "https://img.shields.io/badge/Ansible-000000?logo=ansible&logoColor=white",
+            "url": "#"
+        },
+        "ant-design": {
+            "alt": "Ant Design",
+            "img": "https://img.shields.io/badge/Ant%20Design-1890FF?logo=antdesign&logoColor=white",
+            "url": "#"
+        },
+        "apache": {
+            "alt": "Apache",
+            "img": "https://img.shields.io/badge/Apache-D22128?logo=Apache&logoColor=white",
+            "url": "#"
+        },
+        "apache-groovy": {
+            "alt": "apache Groovy",
+            "img": "https://img.shields.io/badge/apache%20Groovy-4298B8?logo=apachegroovy&logoColor=white",
+            "url": "#"
+        },
+        "apache-netbeans": {
+            "alt": "apache netbeans",
+            "img": "https://img.shields.io/badge/apache%20netbeans-1B6AC6?logo=apache%20netbeans%20IDE&logoColor=white",
+            "url": "#"
+        },
+        "apache_kafka": {
+            "alt": "Apache_Kafka",
+            "img": "https://img.shields.io/badge/Apache_Kafka-231F20?logo=apache-kafka&logoColor=white",
+            "url": "#"
+        },
+        "apache_maven": {
+            "alt": "apache_maven",
+            "img": "https://img.shields.io/badge/apache_maven-C71A36?logo=apachemaven&logoColor=white",
+            "url": "#"
+        },
+        "apache_openoffice": {
+            "alt": "Apache_OpenOffice",
+            "img": "https://img.shields.io/badge/Apache_OpenOffice-0E85CD?logo=ApacheOpenOffice&logoColor=white",
+            "url": "#"
+        },
+        "apache_spark": {
+            "alt": "Apache_Spark",
+            "img": "https://img.shields.io/badge/Apache_Spark-FFFFFF?logo=apachespark&logoColor=#E35A16",
+            "url": "#"
+        },
+        "apollo-graphql": {
+            "alt": "Apollo GraphQL",
+            "img": "https://img.shields.io/badge/Apollo%20GraphQL-311C87?&logo=Apollo%20GraphQL&logoColor=white",
+            "url": "#"
+        },
+        "app_store": {
+            "alt": "App_Store",
+            "img": "https://img.shields.io/badge/App_Store-0D96F6?logo=app-store&logoColor=white",
+            "url": "#"
+        },
+        "appian": {
+            "alt": "Appian",
+            "img": "https://img.shields.io/badge/Appian-2322F0?logo=Appian&logoColor=white",
+            "url": "#"
+        },
+        "apple": {
+            "alt": "Apple",
+            "img": "https://img.shields.io/badge/Apple-MacBook_Pro_2012-333333?logo=apple&logoColor=white",
+            "url": "#"
+        },
+        "apple-laptop": {
+            "alt": "Apple laptop",
+            "img": "https://img.shields.io/badge/Apple%20laptop-333333?logo=apple&logoColor=white",
+            "url": "#"
+        },
+        "apple-music": {
+            "alt": "apple music",
+            "img": "https://img.shields.io/badge/apple%20music-F34E68?logo=apple%20music&logoColor=white",
+            "url": "#"
+        },
+        "apple-pay": {
+            "alt": "apple pay",
+            "img": "https://img.shields.io/badge/apple%20pay-007AFF?logo=apple%20pay&logoColor=white",
+            "url": "#"
+        },
+        "apple-silicon": {
+            "alt": "apple silicon",
+            "img": "https://img.shields.io/badge/apple%20silicon-333333?logo=apple&logoColor=white",
+            "url": "#"
+        },
+        "apple_podcasts": {
+            "alt": "Apple_Podcasts",
+            "img": "https://img.shields.io/badge/Apple_Podcasts-9933CC?logo=apple-podcasts&logoColor=white",
+            "url": "#"
+        },
+        "appwrite": {
+            "alt": "Appwrite",
+            "img": "https://img.shields.io/badge/Appwrite-F02E65?logo=Appwrite&logoColor=black",
+            "url": "#"
+        },
+        "arangodb": {
+            "alt": "ArangoDB",
+            "img": "https://img.shields.io/badge/ArangoDB-DDE072?logo=ArangoDB&logoColor=white",
+            "url": "#"
+        },
+        "arch_linux": {
+            "alt": "Arch_Linux",
+            "img": "https://img.shields.io/badge/Arch_Linux-1793D1?logo=arch-linux&logoColor=white",
+            "url": "#"
+        },
+        "arduino": {
+            "alt": "Arduino",
+            "img": "https://img.shields.io/badge/Arduino-00979D?logo=Arduino&logoColor=white",
+            "url": "#"
+        },
+        "arduino_ide": {
+            "alt": "Arduino_IDE",
+            "img": "https://img.shields.io/badge/Arduino_IDE-00979D?logo=arduino&logoColor=white",
+            "url": "#"
+        },
+        "artix_linux": {
+            "alt": "Artix_Linux",
+            "img": "https://img.shields.io/badge/Artix_Linux-10A0CC?logo=artix-linux&logoColor=white",
+            "url": "#"
+        },
+        "asus-laptop": {
+            "alt": "asus laptop",
+            "img": "https://img.shields.io/badge/asus%20laptop-000000?logo=asus&logoColor=white",
+            "url": "#"
+        },
+        "atom": {
+            "alt": "Atom",
+            "img": "https://img.shields.io/badge/Atom-66595C?logo=Atom&logoColor=white",
+            "url": "#"
+        },
+        "audacity": {
+            "alt": "Audacity",
+            "img": "https://img.shields.io/badge/Audacity-0000CC?logo=audacity&logoColor=white",
+            "url": "#"
+        },
+        "azure_devops": {
+            "alt": "Azure_DevOps",
+            "img": "https://img.shields.io/badge/Azure_DevOps-0078D7?logo=azure-devops&logoColor=white",
+            "url": "#"
+        },
+        "azure_functions": {
+            "alt": "Azure_Functions",
+            "img": "https://img.shields.io/badge/Azure_Functions-0062AD?logo=azure-functions&logoColor=white",
+            "url": "#"
+        },
+        "babel": {
+            "alt": "Babel",
+            "img": "https://img.shields.io/badge/Babel-F9DC3E?logo=babel&logoColor=white",
+            "url": "#"
+        },
+        "backbone-js": {
+            "alt": "backbone js",
+            "img": "https://img.shields.io/badge/backbone%20js-0071B5?logo=backbone.js&logoColor=white",
+            "url": "#"
+        },
+        "battle-net": {
+            "alt": "Battle-net",
+            "img": "https://img.shields.io/badge/Battle.net-000?logo=battle.net&logoColor=148EFF",
+            "url": "#"
+        },
+        "behance": {
+            "alt": "Behance",
+            "img": "https://img.shields.io/badge/-Behance-blue?logo=behance&logoColor=white",
+            "url": "#"
+        },
+        "behance-1": {
+            "alt": "Behance",
+            "img": "https://img.shields.io/badge/Behance-0054F7?logo=behance&logoColor=white",
+            "url": "#"
+        },
+        "binance": {
+            "alt": "Binance",
+            "img": "https://img.shields.io/badge/Binance-FCD535?logo=binance&logoColor=white",
+            "url": "#"
+        },
+        "bio-link": {
+            "alt": "bio-link",
+            "img": "https://img.shields.io/badge/bio.link-000000%7D?logo=biolink&logoColor=white",
+            "url": "#"
+        },
+        "bitbucket": {
+            "alt": "Bitbucket",
+            "img": "https://img.shields.io/badge/Bitbucket-0747a6?logo=bitbucket&logoColor=white",
+            "url": "#"
+        },
+        "bitcoin": {
+            "alt": "Bitcoin",
+            "img": "https://img.shields.io/badge/Bitcoin-000000?logo=bitcoin&logoColor=white",
+            "url": "#"
+        },
+        "bitcoin-cash": {
+            "alt": "Bitcoin Cash",
+            "img": "https://img.shields.io/badge/Bitcoin%20Cash-0AC18E?logo=Bitcoin%20Cash&logoColor=white",
+            "url": "#"
+        },
+        "bitcoin-sv": {
+            "alt": "Bitcoin SV",
+            "img": "https://img.shields.io/badge/Bitcoin%20SV-EAB300?logo=Bitcoin%20SV&logoColor=white",
+            "url": "#"
+        },
+        "blender": {
+            "alt": "blender",
+            "img": "https://img.shields.io/badge/blender-%23F5792A.svg?logo=blender&logoColor=white",
+            "url": "#"
+        },
+        "blockchain-com": {
+            "alt": "Blockchain-com",
+            "img": "https://img.shields.io/badge/Blockchain.com-121D33?logo=blockchaindotcom&logoColor=fff",
+            "url": "#"
+        },
+        "blogger": {
+            "alt": "Blogger",
+            "img": "https://img.shields.io/badge/Blogger-FF5722?logo=blogger&logoColor=white",
+            "url": "#"
+        },
+        "bnb-chain": {
+            "alt": "BNB-CHAIN",
+            "img": "https://tinyurl.com/mp2wu3xx",
+            "url": "#"
+        },
+        "bootstrap": {
+            "alt": "Bootstrap",
+            "img": "https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap&logoColor=white",
+            "url": "#"
+        },
+        "brave": {
+            "alt": "Brave",
+            "img": "https://img.shields.io/badge/Brave-FF1B2D?logo=Brave&logoColor=white",
+            "url": "#"
+        },
+        "burger-king": {
+            "alt": "Burger King",
+            "img": "https://img.shields.io/badge/Burger%20King-D62300?logo=Burger%20King&logoColor=white",
+            "url": "#"
+        },
+        "buy_me_a_coffee": {
+            "alt": "Buy_Me_A_Coffee",
+            "img": "https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?logo=buy-me-a-coffee&logoColor=black",
+            "url": "#"
+        },
+        "c": {
+            "alt": "C",
+            "img": "https://img.shields.io/badge/C-00599C?logo=c&logoColor=white",
+            "url": "#"
+        },
+        "c%23": {
+            "alt": "C%23",
+            "img": "https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white",
+            "url": "#"
+        },
+        "cpp": {
+            "alt": "Cpp",
+            "img": "https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white",
+            "url": "#"
+        },
+        "canva": {
+            "alt": "Canva",
+            "img": "https://img.shields.io/badge/Canva-%2300C4CC.svg?&logo=Canva&logoColor=white",
+            "url": "#"
+        },
+        "capacitor": {
+            "alt": "Capacitor",
+            "img": "https://img.shields.io/badge/Capacitor-119EFF?logo=Capacitor&logoColor=white",
+            "url": "#"
+        },
+        "cassandra": {
+            "alt": "Cassandra",
+            "img": "https://img.shields.io/badge/Cassandra-1287B1?logo=apache%20cassandra&logoColor=white",
+            "url": "#"
+        },
+        "cent-os": {
+            "alt": "Cent OS",
+            "img": "https://img.shields.io/badge/Cent%20OS-262577?logo=CentOS&logoColor=white",
+            "url": "#"
+        },
+        "chai": {
+            "alt": "chai",
+            "img": "https://img.shields.io/badge/chai-A30701?logo=chai&logoColor=white",
+            "url": "#"
+        },
+        "chainlink": {
+            "alt": "chainlink",
+            "img": "https://img.shields.io/badge/chainlink-375BD2?logo=chainlink&logoColor=white",
+            "url": "#"
+        },
+        "chakra": {
+            "alt": "Chakra",
+            "img": "https://img.shields.io/badge/Chakra--UI-319795?logo=chakra-ui&logoColor=white",
+            "url": "#"
+        },
+        "chart-js": {
+            "alt": "Chart-js",
+            "img": "https://img.shields.io/badge/Chart.js-FF6384?logo=chartdotjs&logoColor=white",
+            "url": "#"
+        },
+        "circleci": {
+            "alt": "circleci",
+            "img": "https://img.shields.io/badge/circleci-343434?logo=circleci&logoColor=white",
+            "url": "#"
+        },
+        "cirrus_ci": {
+            "alt": "Cirrus_CI",
+            "img": "https://img.shields.io/badge/Cirrus_CI-4051B5?logo=cirrusci&logoColor=white",
+            "url": "#"
+        },
+        "clion": {
+            "alt": "CLion",
+            "img": "https://img.shields.io/badge/CLion-000000?logo=clion&logoColor=white",
+            "url": "#"
+        },
+        "clojure": {
+            "alt": "Clojure",
+            "img": "https://img.shields.io/badge/Clojure-5881D8?logo=clojure&logoColor=white",
+            "url": "#"
+        },
+        "cloud-foundry": {
+            "alt": "Cloud Foundry",
+            "img": "https://img.shields.io/badge/Cloud%20Foundry-0C9ED5?logo=Cloud%20Foundry&logoColor=white",
+            "url": "#"
+        },
+        "cloudcannon": {
+            "alt": "CloudCannon",
+            "img": "https://img.shields.io/badge/CloudCannon-407AFC?logo=CloudCannon&logoColor=white",
+            "url": "#"
+        },
+        "cloudflare": {
+            "alt": "Cloudflare",
+            "img": "https://img.shields.io/badge/Cloudflare-F38020?logo=Cloudflare&logoColor=white",
+            "url": "#"
+        },
+        "cloudflare-pages": {
+            "alt": "Cloudflare Pages",
+            "img": "https://img.shields.io/badge/Cloudflare%20Pages-F38020?logo=Cloudflare%20Pages&logoColor=white",
+            "url": "#"
+        },
+        "cloudsmith": {
+            "alt": "Cloudsmith",
+            "img": "https://img.shields.io/badge/Cloudsmith-187EB6?logo=Cloudsmith&logoColor=white",
+            "url": "#"
+        },
+        "cmake": {
+            "alt": "CMake",
+            "img": "https://img.shields.io/badge/CMake-064F8C?logo=cmake&logoColor=white",
+            "url": "#"
+        },
+        "cockroach-labs": {
+            "alt": "Cockroach Labs",
+            "img": "https://img.shields.io/badge/Cockroach%20Labs-6933FF?logo=Cockroach%20Labs&logoColor=white",
+            "url": "#"
+        },
+        "cocoapods": {
+            "alt": "cocoapods",
+            "img": "https://img.shields.io/badge/cocoapods-FA2A02?logo=cocoapods&logoColor=white",
+            "url": "#"
+        },
+        "code-climate": {
+            "alt": "Code Climate",
+            "img": "https://img.shields.io/badge/Code%20Climate-000000?logo=Code%20Climate&logoColor=white",
+            "url": "#"
+        },
+        "codecademy": {
+            "alt": "Codecademy",
+            "img": "https://img.shields.io/badge/Codecademy-FFF0E5?logo=codecademy&logoColor=303347",
+            "url": "#"
+        },
+        "codecept-js": {
+            "alt": "codecept js",
+            "img": "https://img.shields.io/badge/codecept%20js-F6E05E?logo=codeceptjs&logoColor=000",
+            "url": "#"
+        },
+        "codechef": {
+            "alt": "CodeChef",
+            "img": "https://img.shields.io/badge/-CodeChef-5B4638?logo=CodeChef&logoColor=white",
+            "url": "#"
+        },
+        "codechef-1": {
+            "alt": "Codechef",
+            "img": "https://img.shields.io/badge/Codechef-%23B92B27.svg?&logo=Codechef&logoColor=white",
+            "url": "#"
+        },
+        "codecov": {
+            "alt": "Codecov",
+            "img": "https://img.shields.io/badge/Codecov-F01F7A?logo=Codecov&logoColor=white",
+            "url": "#"
+        },
+        "codeforces": {
+            "alt": "Codeforces",
+            "img": "https://img.shields.io/badge/Codeforces-445f9d?logo=Codeforces&logoColor=white",
+            "url": "#"
+        },
+        "codeigniter": {
+            "alt": "Codeigniter",
+            "img": "https://img.shields.io/badge/Codeigniter-EF4223?logo=codeigniter&logoColor=white",
+            "url": "#"
+        },
+        "codemagic": {
+            "alt": "Codemagic",
+            "img": "https://img.shields.io/badge/Codemagic-F45E3F?logo=Codemagic&logoColor=white",
+            "url": "#"
+        },
+        "codemirror": {
+            "alt": "CodeMirror",
+            "img": "https://img.shields.io/badge/CodeMirror-D30707?logo=CodeMirror&logoColor=white",
+            "url": "#"
+        },
+        "codenewbie": {
+            "alt": "CodeNewbie",
+            "img": "https://img.shields.io/badge/CodeNewbie-9013FE?logo=CodeNewbie&logoColor=white",
+            "url": "#"
+        },
+        "codepen": {
+            "alt": "Codepen",
+            "img": "https://img.shields.io/badge/Codepen-000000?logo=codepen&logoColor=white",
+            "url": "#"
+        },
+        "codersrank": {
+            "alt": "CodersRank",
+            "img": "https://img.shields.io/badge/CodersRank-67A4AC?logo=CodersRank&logoColor=white",
+            "url": "#"
+        },
+        "coderwall": {
+            "alt": "Coderwall",
+            "img": "https://img.shields.io/badge/Coderwall-3E8DCC?logo=Coderwall&logoColor=white",
+            "url": "#"
+        },
+        "codesandbox": {
+            "alt": "Codesandbox",
+            "img": "https://img.shields.io/badge/Codesandbox-000000?logo=CodeSandbox&logoColor=white",
+            "url": "#"
+        },
+        "codeship": {
+            "alt": "Codeship",
+            "img": "https://img.shields.io/badge/Codeship-004466?logo=Codeship&logoColor=white",
+            "url": "#"
+        },
+        "codewars": {
+            "alt": "Codewars",
+            "img": "https://img.shields.io/badge/Codewars-B1361E?logo=Codewars&logoColor=white",
+            "url": "#"
+        },
+        "coding-ninjas": {
+            "alt": "coding ninjas",
+            "img": "https://img.shields.io/badge/coding%20ninjas-DD6620?logo=codingninjas&logoColor=white",
+            "url": "#"
+        },
+        "codingame": {
+            "alt": "CodinGame",
+            "img": "https://img.shields.io/badge/CodinGame-F2BB13?logo=codingame&logoColor=white",
+            "url": "#"
+        },
+        "coffeescript": {
+            "alt": "CoffeeScript",
+            "img": "https://img.shields.io/badge/CoffeeScript-2F2625?logo=CoffeeScript&logoColor=white",
+            "url": "#"
+        },
+        "coinbase": {
+            "alt": "Coinbase",
+            "img": "https://img.shields.io/badge/Coinbase-0052FF?logo=Coinbase&logoColor=white",
+            "url": "#"
+        },
+        "colab": {
+            "alt": "Colab",
+            "img": "https://img.shields.io/badge/Colab-F9AB00?logo=googlecolab&color=525252",
+            "url": "#"
+        },
+        "comet-ml": {
+            "alt": "comet ml",
+            "img": "https://custom-icon-badges.herokuapp.com/badge/comet%20ml-262c3e?logo=logo_comet_ml&logoColor=white",
+            "url": "#"
+        },
+        "composer": {
+            "alt": "Composer",
+            "img": "https://img.shields.io/badge/Composer-885630?logo=Composer&logoColor=white",
+            "url": "#"
+        },
+        "conda": {
+            "alt": "conda",
+            "img": "https://img.shields.io/badge/conda-342B029.svg?&logo=anaconda&logoColor=white",
+            "url": "#"
+        },
+        "connect": {
+            "alt": "connect",
+            "img": "https://img.shields.io/badge/connect-%2300843e.svg?logo=symfony&logoColor=white",
+            "url": "#"
+        },
+        "cookiecutter": {
+            "alt": "Cookiecutter",
+            "img": "https://img.shields.io/badge/Cookiecutter-D4AA00?logo=Cookiecutter&logoColor=white",
+            "url": "#"
+        },
+        "cordova": {
+            "alt": "Cordova",
+            "img": "https://img.shields.io/badge/Cordova-35434F?logo=apache-cordova&logoColor=E8E8E8",
+            "url": "#"
+        },
+        "couchbase": {
+            "alt": "Couchbase",
+            "img": "https://img.shields.io/badge/Couchbase-EA2328?logo=couchbase&logoColor=white",
+            "url": "#"
+        },
+        "counter_strike": {
+            "alt": "Counter_Strike",
+            "img": "https://img.shields.io/badge/Counter_Strike-000000?logo=counter-strike&logoColor=white",
+            "url": "#"
+        },
+        "countingworks-pro": {
+            "alt": "CountingWorks PRO",
+            "img": "https://img.shields.io/badge/CountingWorks%20PRO-2E3084?logo=CountingWorks%20PRO&logoColor=white",
+            "url": "#"
+        },
+        "coursera": {
+            "alt": "Coursera",
+            "img": "https://img.shields.io/badge/Coursera-0056D2?logo=Coursera&logoColor=white",
+            "url": "#"
+        },
+        "crowdin": {
+            "alt": "Crowdin",
+            "img": "https://img.shields.io/badge/Crowdin-2E3340.svg?logo=Crowdin&logoColor=white",
+            "url": "#"
+        },
+        "crowdsource": {
+            "alt": "Crowdsource",
+            "img": "https://img.shields.io/badge/Crowdsource-4285F4?logo=Crowdsource&logoColor=white",
+            "url": "#"
+        },
+        "crunchyroll": {
+            "alt": "Crunchyroll",
+            "img": "https://img.shields.io/badge/Crunchyroll-F47521?logo=crunchyroll&logoColor=white",
+            "url": "#"
+        },
+        "crystal": {
+            "alt": "Crystal",
+            "img": "https://img.shields.io/badge/Crystal-000000?logo=crystal&logoColor=white",
+            "url": "#"
+        },
+        "css3": {
+            "alt": "CSS3",
+            "img": "https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white",
+            "url": "#"
+        },
+        "cypress": {
+            "alt": "Cypress",
+            "img": "https://img.shields.io/badge/Cypress-17202C?logo=cypress&logoColor=white",
+            "url": "#"
+        },
+        "cytoscape-js": {
+            "alt": "cytoscape-js",
+            "img": "https://img.shields.io/badge/cytoscape.js-F7DF1E?logo=cytoscape.js&logoColor=000",
+            "url": "#"
+        },
+        "d": {
+            "alt": "D",
+            "img": "https://img.shields.io/badge/D-CC342D?logo=d&logoColor=white",
+            "url": "#"
+        },
+        "d3-js": {
+            "alt": "d3-js",
+            "img": "https://img.shields.io/badge/d3.js-F9A03C?logo=d3.js&logoColor=white",
+            "url": "#"
+        },
+        "dart": {
+            "alt": "Dart",
+            "img": "https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white",
+            "url": "#"
+        },
+        "dash": {
+            "alt": "dash",
+            "img": "https://img.shields.io/badge/dash-008DE4?logo=dash&logoColor=white",
+            "url": "#"
+        },
+        "databricks": {
+            "alt": "Databricks",
+            "img": "https://img.shields.io/badge/Databricks-FF3621?logo=Databricks&logoColor=white",
+            "url": "#"
+        },
+        "datacamp": {
+            "alt": "Datacamp",
+            "img": "https://img.shields.io/badge/Datacamp-05192D?logo=datacamp&logoColor=65FF8F",
+            "url": "#"
+        },
+        "dataiku": {
+            "alt": "Dataiku",
+            "img": "https://img.shields.io/badge/Dataiku-2AB1AC?logo=dataiku&logoColor=white",
+            "url": "#"
+        },
+        "dbt": {
+            "alt": "dbt",
+            "img": "https://img.shields.io/badge/dbt-FF694B?logo=dbt&logoColor=white",
+            "url": "#"
+        },
+        "debian": {
+            "alt": "Debian",
+            "img": "https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=white",
+            "url": "#"
+        },
+        "deepin": {
+            "alt": "Deepin",
+            "img": "https://img.shields.io/badge/Deepin-007CFF?logo=deepin&logoColor=white",
+            "url": "#"
+        },
+        "deepnote": {
+            "alt": "Deepnote",
+            "img": "https://img.shields.io/badge/Deepnote-3793EF?logo=Deepnote&logoColor=white",
+            "url": "#"
+        },
+        "deezer": {
+            "alt": "Deezer",
+            "img": "https://img.shields.io/badge/Deezer-FEAA2D?logo=deezer&logoColor=white",
+            "url": "#"
+        },
+        "deliveroo": {
+            "alt": "Deliveroo",
+            "img": "https://img.shields.io/badge/Deliveroo-00CCBC?logo=Deliveroo&logoColor=white",
+            "url": "#"
+        },
+        "dell": {
+            "alt": "dell",
+            "img": "https://img.shields.io/badge/dell-XPS%2015%20-007DB8?logo=dell&logoColor=white",
+            "url": "#"
+        },
+        "dell-laptop": {
+            "alt": "dell laptop",
+            "img": "https://img.shields.io/badge/dell%20laptop-007DB8?logo=dell&logoColor=white",
+            "url": "#"
+        },
+        "delphi": {
+            "alt": "Delphi",
+            "img": "https://img.shields.io/badge/Delphi-B22222?logo=delphi&logoColor=white",
+            "url": "#"
+        },
+        "delphi_rad_studio": {
+            "alt": "Delphi_RAD_Studio",
+            "img": "https://img.shields.io/badge/Delphi_RAD_Studio-B22222?logo=delphi&logoColor=white",
+            "url": "#"
+        },
+        "deno": {
+            "alt": "Deno",
+            "img": "https://img.shields.io/badge/Deno-white?logo=deno&logoColor=464647",
+            "url": "#"
+        },
+        "deno-1": {
+            "alt": "Deno",
+            "img": "https://img.shields.io/badge/Deno-464647?logo=deno&logoColor=white",
+            "url": "#"
+        },
+        "dev-to": {
+            "alt": "dev-to",
+            "img": "https://img.shields.io/badge/dev.to-0A0A0A?logo=devdotto&logoColor=white",
+            "url": "#"
+        },
+        "deviantart": {
+            "alt": "DeviantArt",
+            "img": "https://img.shields.io/badge/DeviantArt-05CC47?logo=deviantart&logoColor=white",
+            "url": "#"
+        },
+        "devpost": {
+            "alt": "Devpost",
+            "img": "https://img.shields.io/badge/Devpost-003E54?logo=Devpost&logoColor=white",
+            "url": "#"
+        },
+        "devrant": {
+            "alt": "devRant",
+            "img": "https://img.shields.io/badge/devRant-F99A66?logo=devrant&logoColor=white",
+            "url": "#"
+        },
+        "dialogflow": {
+            "alt": "dialogflow",
+            "img": "https://img.shields.io/badge/dialogflow-FF9800?logo=dialogflow&logoColor=white",
+            "url": "#"
+        },
+        "digital_ocean": {
+            "alt": "Digital_Ocean",
+            "img": "https://img.shields.io/badge/Digital_Ocean-0080FF?logo=DigitalOcean&logoColor=white",
+            "url": "#"
+        },
+        "discord": {
+            "alt": "Discord",
+            "img": "https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white",
+            "url": "#"
+        },
+        "django": {
+            "alt": "Django",
+            "img": "https://img.shields.io/badge/Django-092E20?logo=django&logoColor=green",
+            "url": "#"
+        },
+        "django-rest": {
+            "alt": "django rest",
+            "img": "https://img.shields.io/badge/django%20rest-ff1709?logo=django&logoColor=white",
+            "url": "#"
+        },
+        "docker": {
+            "alt": "Docker",
+            "img": "https://img.shields.io/badge/Docker-2CA5E0?logo=docker&logoColor=white",
+            "url": "#"
+        },
+        "dogecoin": {
+            "alt": "dogecoin",
+            "img": "https://img.shields.io/badge/dogecoin-C2A633?logo=dogecoin&logoColor=white",
+            "url": "#"
+        },
+        "doordash": {
+            "alt": "DoorDash",
+            "img": "https://img.shields.io/badge/DoorDash-FF3008?logo=DoorDash&logoColor=white",
+            "url": "#"
+        },
+        "dribbble": {
+            "alt": "Dribbble",
+            "img": "https://img.shields.io/badge/Dribbble-EA4C89?logo=dribbble&logoColor=white",
+            "url": "#"
+        },
+        "dribbble-1": {
+            "alt": "Dribbble",
+            "img": "https://img.shields.io/badge/Dribbble-EA4C89?logo=dribbble&logoColor=white",
+            "url": "#"
+        },
+        "drone_ci": {
+            "alt": "Drone_CI",
+            "img": "https://img.shields.io/badge/Drone_CI-212121?logo=drone&logoColor=white",
+            "url": "#"
+        },
+        "drupal": {
+            "alt": "Drupal",
+            "img": "https://img.shields.io/badge/Drupal-0678BE?logo=drupal&logoColor=white",
+            "url": "#"
+        },
+        "duckduckgo": {
+            "alt": "DuckDuckGo",
+            "img": "https://img.shields.io/badge/DuckDuckGo-DE5833?logo=DuckDuckGo&logoColor=white",
+            "url": "#"
+        },
+        "duolingo": {
+            "alt": "Duolingo",
+            "img": "https://img.shields.io/badge/Duolingo-58CC02?logo=Duolingo&logoColor=white",
+            "url": "#"
+        },
+        "dvc": {
+            "alt": "DVC",
+            "img": "https://img.shields.io/badge/DVC-945DD6?logo=dataversioncontrol&logoColor=white",
+            "url": "#"
+        },
+        "eclipse": {
+            "alt": "Eclipse",
+            "img": "https://img.shields.io/badge/Eclipse-2C2255?logo=eclipse&logoColor=white",
+            "url": "#"
+        },
+        "editor-config": {
+            "alt": "Editor Config",
+            "img": "https://img.shields.io/badge/Editor%20Config-E0EFEF?logo=editorconfig&logoColor=000",
+            "url": "#"
+        },
+        "edx": {
+            "alt": "Edx",
+            "img": "https://img.shields.io/badge/Edx-193A3E?logo=edx&logoColor=white",
+            "url": "#"
+        },
+        "elastic-cloud": {
+            "alt": "elastic cloud",
+            "img": "https://img.shields.io/badge/elastic%20cloud-005571?logo=elasticcloud&logoColor=white",
+            "url": "#"
+        },
+        "elastic_search": {
+            "alt": "Elastic_Search",
+            "img": "https://img.shields.io/badge/Elastic_Search-005571?logo=elasticsearch&logoColor=white",
+            "url": "#"
+        },
+        "electron": {
+            "alt": "Electron",
+            "img": "https://img.shields.io/badge/Electron-2B2E3A?logo=electron&logoColor=9FEAF9",
+            "url": "#"
+        },
+        "element": {
+            "alt": "Element",
+            "img": "https://img.shields.io/badge/Element-0DBD8B?logo=element&logoColor=white",
+            "url": "#"
+        },
+        "elementary-os": {
+            "alt": "Elementary OS",
+            "img": "https://img.shields.io/badge/Elementary%20OS-64BAFF?logo=elementary&logoColor=white",
+            "url": "#"
+        },
+        "elixir": {
+            "alt": "Elixir",
+            "img": "https://img.shields.io/badge/Elixir-4B275F?logo=elixir&logoColor=white",
+            "url": "#"
+        },
+        "emacs": {
+            "alt": "Emacs",
+            "img": "https://img.shields.io/badge/Emacs-%237F5AB6.svg?&logo=gnu-emacs&logoColor=white",
+            "url": "#"
+        },
+        "ember-js": {
+            "alt": "ember-js",
+            "img": "https://img.shields.io/badge/ember.js-E04E39?logo=emberdotjs&logoColor=white",
+            "url": "#"
+        },
+        "epic-games": {
+            "alt": "Epic Games",
+            "img": "https://img.shields.io/badge/Epic%20Games-313131?logo=Epic%20Games&logoColor=white",
+            "url": "#"
+        },
+        "erlang": {
+            "alt": "Erlang",
+            "img": "https://img.shields.io/badge/Erlang-A90533?logo=erlang&logoColor=white",
+            "url": "#"
+        },
+        "eslint": {
+            "alt": "eslint",
+            "img": "https://img.shields.io/badge/eslint-3A33D1?logo=eslint&logoColor=white",
+            "url": "#"
+        },
+        "espressif": {
+            "alt": "espressif",
+            "img": "https://img.shields.io/badge/espressif-E7352C?logo=espressif&logoColor=white",
+            "url": "#"
+        },
+        "ethereum": {
+            "alt": "Ethereum",
+            "img": "https://img.shields.io/badge/Ethereum-3C3C3D?logo=Ethereum&logoColor=white",
+            "url": "#"
+        },
+        "exercism": {
+            "alt": "Exercism",
+            "img": "https://img.shields.io/badge/Exercism-009CAB?logo=exercism&logoColor=white",
+            "url": "#"
+        },
+        "expo": {
+            "alt": "Expo",
+            "img": "https://img.shields.io/badge/Expo-1B1F23?logo=expo&logoColor=white",
+            "url": "#"
+        },
+        "express-js": {
+            "alt": "Express-js",
+            "img": "https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white",
+            "url": "#"
+        },
+        "f-droid": {
+            "alt": "F Droid",
+            "img": "https://img.shields.io/badge/F%20Droid-1976D2?logo=f-droid&logoColor=white",
+            "url": "#"
+        },
+        "facebook": {
+            "alt": "Facebook",
+            "img": "https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white",
+            "url": "#"
+        },
+        "facebook_gaming": {
+            "alt": "Facebook_Gaming",
+            "img": "https://img.shields.io/badge/Facebook_Gaming-005FED?logo=facebook-gaming&logoColor=white",
+            "url": "#"
+        },
+        "fampay": {
+            "alt": "fampay",
+            "img": "https://img.shields.io/badge/fampay-FFAD00?logo=fampay&logoColor=white",
+            "url": "#"
+        },
+        "fastapi": {
+            "alt": "fastapi",
+            "img": "https://img.shields.io/badge/fastapi-109989?logo=FASTAPI&logoColor=white",
+            "url": "#"
+        },
+        "fastify": {
+            "alt": "fastify",
+            "img": "https://img.shields.io/badge/fastify-202020?logo=fastify&logoColor=white",
+            "url": "#"
+        },
+        "fedora": {
+            "alt": "Fedora",
+            "img": "https://img.shields.io/badge/Fedora-294172?logo=fedora&logoColor=white",
+            "url": "#"
+        },
+        "fifa": {
+            "alt": "FIFA",
+            "img": "https://img.shields.io/badge/FIFA-B7312F?logo=fifa&logoColor=white",
+            "url": "#"
+        },
+        "figma": {
+            "alt": "Figma",
+            "img": "https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white",
+            "url": "#"
+        },
+        "firebase": {
+            "alt": "firebase",
+            "img": "https://img.shields.io/badge/firebase-ffca28?logo=firebase&logoColor=black",
+            "url": "#"
+        },
+        "firefox_browser": {
+            "alt": "Firefox_Browser",
+            "img": "https://img.shields.io/badge/Firefox_Browser-FF7139?logo=Firefox-Browser&logoColor=white",
+            "url": "#"
+        },
+        "fiverr": {
+            "alt": "fiverr",
+            "img": "https://img.shields.io/badge/fiverr-1DBF73?logo=fiverr&logoColor=white",
+            "url": "#"
+        },
+        "flask": {
+            "alt": "Flask",
+            "img": "https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white",
+            "url": "#"
+        },
+        "fluentd": {
+            "alt": "Fluentd",
+            "img": "https://img.shields.io/badge/Fluentd-599CD0?logo=fluentd&logoColor=white&labelColor=599CD0",
+            "url": "#"
+        },
+        "flutter": {
+            "alt": "Flutter",
+            "img": "https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white",
+            "url": "#"
+        },
+        "font_awesome": {
+            "alt": "Font_Awesome",
+            "img": "https://img.shields.io/badge/Font_Awesome-339AF0?logo=fontawesome&logoColor=white",
+            "url": "#"
+        },
+        "foodpanda": {
+            "alt": "foodpanda",
+            "img": "https://img.shields.io/badge/foodpanda-E23744?logo=zomato&logoColor=white",
+            "url": "#"
+        },
+        "foundry": {
+            "alt": "FOUNDRY",
+            "img": "https://tinyurl.com/2s397eh4",
+            "url": "#"
+        },
+        "framer": {
+            "alt": "Framer",
+            "img": "https://img.shields.io/badge/Framer-black?logo=framer&logoColor=blue",
+            "url": "#"
+        },
+        "freebsd": {
+            "alt": "freebsd",
+            "img": "https://img.shields.io/badge/freebsd-AB2B28?logo=freebsd&logoColor=white",
+            "url": "#"
+        },
+        "freecodecamp": {
+            "alt": "freecodecamp",
+            "img": "https://img.shields.io/badge/freecodecamp-27273D?logo=freecodecamp&logoColor=white",
+            "url": "#"
+        },
+        "freelancer": {
+            "alt": "Freelancer",
+            "img": "https://img.shields.io/badge/Freelancer-29B2FE?logo=Freelancer&logoColor=white",
+            "url": "#"
+        },
+        "future-learn": {
+            "alt": "Future Learn",
+            "img": "https://img.shields.io/badge/Future%20Learn-000000?logo=futurelearn&logoColor=white",
+            "url": "#"
+        },
+        "g-pay": {
+            "alt": "G pay",
+            "img": "https://img.shields.io/badge/G%20pay-2875E3?logo=googlepay&logoColor=white",
+            "url": "#"
+        },
+        "game-&%20watch": {
+            "alt": "Game &%20Watch",
+            "img": "https://img.shields.io/badge/Game%20&%20Watch-CCFF00?logo=Game%20&%20Watch&logoColor=white",
+            "url": "#"
+        },
+        "game-jolt": {
+            "alt": "Game Jolt",
+            "img": "https://img.shields.io/badge/Game%20Jolt-CCFF00?logo=Game%20Jolt&logoColor=white",
+            "url": "#"
+        },
+        "gatsby": {
+            "alt": "Gatsby",
+            "img": "https://img.shields.io/badge/Gatsby-663399?logo=gatsby&logoColor=white",
+            "url": "#"
+        },
+        "geeksforgeeks": {
+            "alt": "GeeksforGeeks",
+            "img": "https://img.shields.io/badge/GeeksforGeeks-298D46?logo=geeksforgeeks&logoColor=white",
+            "url": "#"
+        },
+        "gentoo": {
+            "alt": "Gentoo",
+            "img": "https://img.shields.io/badge/Gentoo-54487A?logo=gentoo&logoColor=white",
+            "url": "#"
+        },
+        "ghost": {
+            "alt": "Ghost",
+            "img": "https://img.shields.io/badge/Ghost-000?logo=ghost&logoColor=yellow",
+            "url": "#"
+        },
+        "gimp": {
+            "alt": "gimp",
+            "img": "https://img.shields.io/badge/gimp-5C5543?logo=gimp&logoColor=white",
+            "url": "#"
+        },
+        "git": {
+            "alt": "GIT",
+            "img": "https://img.shields.io/badge/GIT-E44C30?logo=git&logoColor=white",
+            "url": "#"
+        },
+        "gitbook": {
+            "alt": "GitBook",
+            "img": "https://img.shields.io/badge/GitBook-7B36ED?logo=gitbook&logoColor=white",
+            "url": "#"
+        },
+        "github": {
+            "alt": "GitHub",
+            "img": "https://img.shields.io/badge/GitHub-100000?logo=github&logoColor=white",
+            "url": "#"
+        },
+        "github-pages": {
+            "alt": "GitHub Pages",
+            "img": "https://img.shields.io/badge/GitHub%20Pages-222222?logo=GitHub%20Pages&logoColor=white",
+            "url": "#"
+        },
+        "github_actions": {
+            "alt": "GitHub_Actions",
+            "img": "https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white",
+            "url": "#"
+        },
+        "gitignore-io": {
+            "alt": "gitignore io",
+            "img": "https://img.shields.io/badge/gitignore%20io-204ECF?logo=gitignoredotio&logoColor=white",
+            "url": "#"
+        },
+        "gitkraken": {
+            "alt": "GitKraken",
+            "img": "https://img.shields.io/badge/GitKraken-179287?logo=GitKraken&logoColor=white",
+            "url": "#"
+        },
+        "gitlab": {
+            "alt": "GitLab",
+            "img": "https://img.shields.io/badge/GitLab-330F63?logo=gitlab&logoColor=white",
+            "url": "#"
+        },
+        "gitpod": {
+            "alt": "Gitpod",
+            "img": "https://img.shields.io/badge/Gitpod-000000?logo=gitpod&logoColor=#FFAE33",
+            "url": "#"
+        },
+        "glitch": {
+            "alt": "Glitch",
+            "img": "https://img.shields.io/badge/Glitch-2800ff?logo=glitch&logoColor=white",
+            "url": "#"
+        },
+        "gmail": {
+            "alt": "Gmail",
+            "img": "https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white",
+            "url": "#"
+        },
+        "gnu-bash": {
+            "alt": "GNU Bash",
+            "img": "https://img.shields.io/badge/GNU%20Bash-4EAA25?logo=GNU%20Bash&logoColor=white",
+            "url": "#"
+        },
+        "go": {
+            "alt": "Go",
+            "img": "https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white",
+            "url": "#"
+        },
+        "godot": {
+            "alt": "Godot",
+            "img": "https://img.shields.io/badge/Godot-478CBF?logo=GodotEngine&logoColor=white",
+            "url": "#"
+        },
+        "google-analytics": {
+            "alt": "Google Analytics",
+            "img": "https://img.shields.io/badge/Google%20Analytics-E37400?logo=google%20analytics&logoColor=white",
+            "url": "#"
+        },
+        "google-meet": {
+            "alt": "Google Meet",
+            "img": "https://img.shields.io/badge/Google%20Meet-00897B?logo=google-meet&logoColor=white",
+            "url": "#"
+        },
+        "google-sheets": {
+            "alt": "Google Sheets",
+            "img": "https://img.shields.io/badge/Google%20Sheets-34A853?logo=google-sheets&logoColor=white",
+            "url": "#"
+        },
+        "google_chrome": {
+            "alt": "Google_chrome",
+            "img": "https://img.shields.io/badge/Google_chrome-4285F4?logo=Google-chrome&logoColor=white",
+            "url": "#"
+        },
+        "google_cloud": {
+            "alt": "Google_Cloud",
+            "img": "https://img.shields.io/badge/Google_Cloud-4285F4?logo=google-cloud&logoColor=white",
+            "url": "#"
+        },
+        "google_play": {
+            "alt": "Google_Play",
+            "img": "https://img.shields.io/badge/Google_Play-414141?logo=google-play&logoColor=white",
+            "url": "#"
+        },
+        "google_podcasts": {
+            "alt": "Google_Podcasts",
+            "img": "https://img.shields.io/badge/Google_Podcasts-4285F4?logo=google-podcasts&logoColor=white",
+            "url": "#"
+        },
+        "grab": {
+            "alt": "Grab",
+            "img": "https://img.shields.io/badge/Grab-00B14F?logo=grab&logoColor=white",
+            "url": "#"
+        },
+        "gradle": {
+            "alt": "gradle",
+            "img": "https://img.shields.io/badge/gradle-02303A?logo=gradle&logoColor=white",
+            "url": "#"
+        },
+        "grafana": {
+            "alt": "Grafana",
+            "img": "https://img.shields.io/badge/Grafana-F2F4F9?logo=grafana&logoColor=orange&labelColor=F2F4F9",
+            "url": "#"
+        },
+        "grafana_loki": {
+            "alt": "grafana_loki",
+            "img": "https://img.shields.io/badge/grafana_loki-F2F4F9?labelColor=2C3239&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsTAAALEwEAmpwYAAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgpMwidZAAAFFUlEQVRIDc2WzWtcZRTGn/s9M0knySRtPhsXgVJa0UYKalcioogbcSWCuBLX/hn+C65cuBFBFy5FYkDBWix+UGsbP9pmknSapMlMMt9z7/V3btI0aRF0svGl07nz3nvPc57nPOe8cc49cykVK+FzKkg05Enj+Vivn2zrw3Je5barRuwocCT+qZc9bW/0t1x7zcByTqoLJ2K9MdFSueWpmEv19mRL42Ein/vTYawzhVjJMQEtVhZkjmAXil3NDCSq9RwlpDI9mGgiIh1AXhnragTQn3YG5ZJcvysDTFNHxUA6W4zVBcgC7tqem2qikGjETzU/3FMLnIi9GDSTt5+VSWoAqx03Y+UDPBSk2ui5SklnGuZ3ued5qXJhqiIS988PMpal/bfZddQh7cRY5ROtttgFZByJ14024D6JnETixIre58oAHYB2AdxFqJSdGcxTbrhyYTucT9VEQ8NMcfAkCRzHOBmgJdtNHFgiIzvTg7FWm55cWJmMAUxr1DQB0IyU9l3BfUkN0OqyhqYOIKdOJNriOgXIwzDGcoM6GsMp2B9nHTB0kXWtASuCFgHoELdJ5IQEppDRaupwb4xr/+Ct/w598Cr5a8UAMUbEJw+z6r7Ep4s9letWU1xaSDXAROrXqQ8BYXivSZ34NlnHBlJVqKO1xuRwortWU0wURqlKuf6degBoTq22HTVI3VpjmiFQrsEKpmPFRNvcs33HWoXf/Tr1ISDlaNMaVWt4dmdGkHFnj9UJamoATeibU2eGbKaSYR/rANDe7RGkQv9lbkTGCnWz5reGLyDl1gOnkkzaZxGPAFrOq7smozRKa9RpjZ5lgqzWKncxlTl1YiSRe+RNe+jfrSOvWWus1Dx5xoihnU0gJLaT43QJiampuDcCeI4k/omkJe7xaMgzNjgOL7g8XDbEKwBaDV0MUmSm3oNxhJzG+MqtQJtNV3UMFBGsSc1tCllw+x3i4giAAp9B6j7M4HeI+fW1nHoc4pbII4AMcWp4r4GU0LK6/bwSqErtKhjo9magb5ZitQByza0MgbmJXnZYl0hoFPeOMolKfJcYj6XBVDvE+n4pUpVvU+wIoG00qNvCjVx2s8X15b+CbHiboeotmMNifq6tW/d9nZno6r3XdlWAXcS+gyo2oRoc4E1UqOy42qi6CgzFlH0U0MTt4pI1avXCU235PHj1z0DvvlwnmHTtzoheerqt+XMt/fh7lJmqjlSVbVc1lKlhqirDo4q7d1skCGgH8IC6P1hHGNpmTK89OdvTWy/W9dUPOV1eCrNmb8LWx6GL1yPaxVGNWi6tBvpkgVpyr8sZ6XE/z3k5xPibGo81Ohxr8mRPXywO6LNKQSEKPAZodr9eDvTl1ZxuLIcEdvTRwgBZ7kn27a+h2kyBPIZodgI9MdXTLJ8xhkGJo8vMEsLI+rQJO6qg0hCzd5/kY4A+Zri54mvhl2jvZerjeI6ev9ikPo7Wtzy9/2ZNt9d8Xb0Z6dnzbZXGYtWRdBvWyxuOtqndfdxu9bPvG7eDA1kfA7RMrCXeebWuWRz4GyzPzHb13HxLy8u+bi4HulUJtLzuZVb/dLGQ9VrlvqdNALYAqALegFqXHo4xkanmEdOWAe6TzX5nvWKF3qLw/paPcVJ9dy2k+QcwSqi1TVcffFwksJvN3s8BTGzGUkNzuQXn6N67pgdtah1ezvmLl64c3nhwffFsJ5PwjzuBdjiJLaD9aWGZdulD+yvOXPy/X38Dy2M5JJe3rzYAAAAASUVORK5CYII=",
+            "url": "#"
+        },
+        "graphql": {
+            "alt": "GraphQl",
+            "img": "https://img.shields.io/badge/GraphQl-E10098?logo=graphql&logoColor=white",
+            "url": "#"
+        },
+        "groupme": {
+            "alt": "GroupMe",
+            "img": "https://img.shields.io/badge/GroupMe-00AFF0?logo=groupme&logoColor=white",
+            "url": "#"
+        },
+        "grubhub": {
+            "alt": "Grubhub",
+            "img": "https://img.shields.io/badge/Grubhub-F63440?logo=Grubhub&logoColor=white",
+            "url": "#"
+        },
+        "guilded": {
+            "alt": "Guilded",
+            "img": "https://img.shields.io/badge/Guilded-F5C400?logo=guilded&logoColor=white",
+            "url": "#"
+        },
+        "gulp": {
+            "alt": "Gulp",
+            "img": "https://img.shields.io/badge/Gulp-CF4647?logo=gulp&logoColor=white",
+            "url": "#"
+        },
+        "gumroad": {
+            "alt": "GUMROAD",
+            "img": "https://img.shields.io/badge/GUMROAD-36a9ae?logo=gumroad&logoColor=white",
+            "url": "#"
+        },
+        "hack-club": {
+            "alt": "Hack Club",
+            "img": "https://img.shields.io/badge/Hack%20Club-EC3750?logo=Hack%20Club&logoColor=white",
+            "url": "#"
+        },
+        "hackerearth": {
+            "alt": "HackerEarth",
+            "img": "https://img.shields.io/badge/HackerEarth-%232C3454.svg?&logo=HackerEarth&logoColor=Blue",
+            "url": "#"
+        },
+        "hackerrank": {
+            "alt": "Hackerrank",
+            "img": "https://img.shields.io/badge/-Hackerrank-2EC866?logo=HackerRank&logoColor=white",
+            "url": "#"
+        },
+        "hackthebox": {
+            "alt": "HackTheBox",
+            "img": "https://img.shields.io/badge/HackTheBox-111927?logo=Hack%20The%20Box&logoColor=9FEF00",
+            "url": "#"
+        },
+        "handlebars-js": {
+            "alt": "Handlebars-js",
+            "img": "https://img.shields.io/badge/Handlebars.js-f0772b?logo=handlebarsdotjs&logoColor=black",
+            "url": "#"
+        },
+        "hardhat": {
+            "alt": "HARDHAT",
+            "img": "https://tinyurl.com/yjs68jbs",
+            "url": "#"
+        },
+        "harmonyos": {
+            "alt": "HarmonyOS",
+            "img": "https://img.shields.io/badge/HarmonyOS-000000?logo=harmonyos&logoColor=white",
+            "url": "#"
+        },
+        "hashnode": {
+            "alt": "Hashnode",
+            "img": "https://img.shields.io/badge/Hashnode-2962FF?logo=hashnode&logoColor=white",
+            "url": "#"
+        },
+        "haskell": {
+            "alt": "Haskell",
+            "img": "https://img.shields.io/badge/Haskell-5D4F85?logo=haskell&logoColor=white",
+            "url": "#"
+        },
+        "hasura": {
+            "alt": "Hasura",
+            "img": "https://img.shields.io/badge/Hasura-1EB4D4?logo=hasura&logoColor=white",
+            "url": "#"
+        },
+        "helm": {
+            "alt": "Helm",
+            "img": "https://img.shields.io/badge/Helm-0F1689?logo=Helm&labelColor=0F1689",
+            "url": "#"
+        },
+        "heroku": {
+            "alt": "Heroku",
+            "img": "https://img.shields.io/badge/Heroku-430098?logo=heroku&logoColor=white",
+            "url": "#"
+        },
+        "hetzner": {
+            "alt": "Hetzner",
+            "img": "https://img.shields.io/badge/Hetzner-D50C2D?logo=hetzner&logoColor=white",
+            "url": "#"
+        },
+        "hexo": {
+            "alt": "Hexo",
+            "img": "https://img.shields.io/badge/Hexo-0E83CD?logo=hexo&logoColor=white",
+            "url": "#"
+        },
+        "hibernate": {
+            "alt": "Hibernate",
+            "img": "https://img.shields.io/badge/Hibernate-59666C?logo=Hibernate&logoColor=white",
+            "url": "#"
+        },
+        "hoppscotch": {
+            "alt": "Hoppscotch",
+            "img": "https://img.shields.io/badge/Hoppscotch-31C48D?logo=hoppscotch&logoColor=white",
+            "url": "#"
+        },
+        "hotjar": {
+            "alt": "hotjar",
+            "img": "https://img.shields.io/badge/hotjar-FD3A5C?logo=hotjar&logoColor=white",
+            "url": "#"
+        },
+        "hp-laptop": {
+            "alt": "hp laptop",
+            "img": "https://img.shields.io/badge/hp%20laptop-0096D6?logo=hp&logoColor=white",
+            "url": "#"
+        },
+        "html-academy": {
+            "alt": "HTML Academy",
+            "img": "https://img.shields.io/badge/HTML%20Academy-302683?logo=HTML%20Academy&logoColor=white",
+            "url": "#"
+        },
+        "html5": {
+            "alt": "HTML5",
+            "img": "https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white",
+            "url": "#"
+        },
+        "huawei": {
+            "alt": "Huawei",
+            "img": "https://img.shields.io/badge/Huawei-FF0000?logo=huawei&logoColor=white",
+            "url": "#"
+        },
+        "hugo": {
+            "alt": "Hugo",
+            "img": "https://img.shields.io/badge/Hugo-FF4088?logo=hugo&logoColor=white",
+            "url": "#"
+        },
+        "hulu": {
+            "alt": "Hulu",
+            "img": "https://img.shields.io/badge/Hulu-1CE783?logo=hulu&logoColor=white",
+            "url": "#"
+        },
+        "hyper": {
+            "alt": "Hyper",
+            "img": "https://img.shields.io/badge/Hyper-000000?logo=hyper&logoColor=white",
+            "url": "#"
+        },
+        "hyperledger": {
+            "alt": "hyperledger",
+            "img": "https://img.shields.io/badge/hyperledger-2F3134?logo=hyperledger&logoColor=white",
+            "url": "#"
+        },
+        "ibm-cloud": {
+            "alt": "IBM Cloud",
+            "img": "https://img.shields.io/badge/IBM%20Cloud-1261FE?logo=IBM%20Cloud&logoColor=white",
+            "url": "#"
+        },
+        "icloud": {
+            "alt": "iCloud",
+            "img": "https://img.shields.io/badge/iCloud-3693F3?logo=iCloud&logoColor=white",
+            "url": "#"
+        },
+        "iconfinder": {
+            "alt": "Iconfinder",
+            "img": "https://img.shields.io/badge/Iconfinder-1A1B1F?logo=Iconfinder&logoColor=white",
+            "url": "#"
+        },
+        "icq_new": {
+            "alt": "icq_new",
+            "img": "https://img.shields.io/badge/icq_new-black?logo=icq&logolColor=42F425",
+            "url": "#"
+        },
+        "ifood": {
+            "alt": "iFood",
+            "img": "https://img.shields.io/badge/iFood-EA1D2C?logo=ifood&logoColor=white",
+            "url": "#"
+        },
+        "iheart": {
+            "alt": "iheart",
+            "img": "https://img.shields.io/badge/iheart-A80025?logo=iheartradio&logoColor=white",
+            "url": "#"
+        },
+        "indeed": {
+            "alt": "Indeed",
+            "img": "https://img.shields.io/badge/Indeed-003A9B?logo=Indeed&logoColor=white",
+            "url": "#"
+        },
+        "influxdb": {
+            "alt": "InfluxDB",
+            "img": "https://img.shields.io/badge/InfluxDB-22ADF6?logo=InfluxDB&logoColor=white",
+            "url": "#"
+        },
+        "inkdrop": {
+            "alt": "Inkdrop",
+            "img": "https://img.shields.io/badge/Inkdrop-7A78D7?logo=inkdrop&logoColor=white",
+            "url": "#"
+        },
+        "inkscape": {
+            "alt": "Inkscape",
+            "img": "https://img.shields.io/badge/Inkscape-000000?logo=Inkscape&logoColor=white",
+            "url": "#"
+        },
+        "insomnia": {
+            "alt": "Insomnia",
+            "img": "https://img.shields.io/badge/Insomnia-5849be?logo=Insomnia&logoColor=white",
+            "url": "#"
+        },
+        "instagram": {
+            "alt": "Instagram",
+            "img": "https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white",
+            "url": "#"
+        },
+        "intel-core_i5_10th": {
+            "alt": "Intel Core_i5_10th",
+            "img": "https://img.shields.io/badge/Intel%20Core_i5_10th-0071C5?logo=intel&logoColor=white",
+            "url": "#"
+        },
+        "intel-core_i7_10th": {
+            "alt": "Intel Core_i7_10th",
+            "img": "https://img.shields.io/badge/Intel%20Core_i7_10th-0071C5?logo=intel&logoColor=white",
+            "url": "#"
+        },
+        "intel-core_i9_10th": {
+            "alt": "Intel Core_i9_10th",
+            "img": "https://img.shields.io/badge/Intel%20Core_i9_10th-0071C5?logo=intel&logoColor=white",
+            "url": "#"
+        },
+        "intellij_idea": {
+            "alt": "IntelliJ_IDEA",
+            "img": "https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?logo=intellij-idea&logoColor=white",
+            "url": "#"
+        },
+        "interact-js": {
+            "alt": "Interact Js",
+            "img": "https://img.shields.io/badge/Interact%20Js-2599ED?logo=interactjs&logoColor=white",
+            "url": "#"
+        },
+        "invision": {
+            "alt": "InVision",
+            "img": "https://img.shields.io/badge/InVision-FF3366?logo=InVision&logoColor=white",
+            "url": "#"
+        },
+        "ionic": {
+            "alt": "Ionic",
+            "img": "https://img.shields.io/badge/Ionic-3880FF?logo=ionic&logoColor=white",
+            "url": "#"
+        },
+        "ios": {
+            "alt": "iOS",
+            "img": "https://img.shields.io/badge/iOS-000000?logo=ios&logoColor=white",
+            "url": "#"
+        },
+        "iota": {
+            "alt": "iota",
+            "img": "https://img.shields.io/badge/iota-131F37?logo=iota&logoColor=white",
+            "url": "#"
+        },
+        "istio": {
+            "alt": "Istio",
+            "img": "https://img.shields.io/badge/Istio-466BB0?logo=Istio&logoColor=white",
+            "url": "#"
+        },
+        "itch-io": {
+            "alt": "Itch-io",
+            "img": "https://img.shields.io/badge/Itch.io-FA5C5C?logo=itchdotio&logoColor=white",
+            "url": "#"
+        },
+        "iterm2": {
+            "alt": "iTerm2",
+            "img": "https://img.shields.io/badge/iTerm2-000000?logo=iterm2&logoColor=white",
+            "url": "#"
+        },
+        "jaeger": {
+            "alt": "Jaeger",
+            "img": "https://img.shields.io/badge/Jaeger-F2F4F9?labelColor=F2F4F9&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAACFNJREFUSA2lVntQVNcZ/8659+7dXfbBG0RE3iFBDPKwHWItqGmMTmP+yGLM2Eq0mnZG27TJpJ20TtY26YzGUac2NhoDSoytaNOJqVWrBmpiqzzEB4gICiwrLg9ZYJ937+P0nFUo29p2pv1mvj3ffuec73e+1zkX4L8TstnzdWG2ATd9eXPzXoH972s+tKbj0sE4JhNCEBv/J7LVAWe3Az9986ZfZYv5dtD11Nfomd7RdHBFX2NtO5OdzQcrui/UJjK5rq4u4nBM9x9pOtCGnfEzGD9qQ29j7YWexkN/o/x7Cnxqcs2/A4w4/eRiBkZZse1INVgUZY+qoOcBEWntu8kOjOCiiZt5etcPW064rh55J9ZqLBsdcg0TQCYf4GXMRnudXZdfWRmatDd9jIw3jf+GlhZ+X0mJvGo7xBu1pAa9CedLAQ0QXYk5DjgsgMjrYWC8s+nljM1n8jPyZh/hCqMHQX/u3eKsndOMM9tk2v+wiKcULNkIEQb2as2r0dEoqyHKbMpX/IYgDyYigAU4YoCg5IEBXye4AiAsXfkL9Pz9xwdPDnmXdwy7q5gtmw0S1u1fF0vFfwFj8w9C+hCMhhFT1ob7d1UZZkC+d5R6JYA+KAN4ZZD8GoxaMLgWpa0d+9oT6f1nD2fLjfGxr8VaYyEwOqSs3wZ/0GB2ERm//By1PTppjwFNEk/rGNkBGJPeZzt/8uJyfXlOf101dv7m3F2dURRpnWdZZsnp1gwtOz6Tz4ibSUSdKQEpI57E3AUTaExtI2P9qs4/eFIbBxPEJvy8+rXmq48CY6C8nYGxBFFSVPRVHilPDyQ/F9qanTmqaFoBh/EYRigKYyyHFNnbO3wXt46cHdx4vPoL6TD4v7cZbkrRJV1a2YEU8pJbOpgf08pstb9FU2SPLBGm5ykYsRGCj1JQDME/88YZ3xzx+xO/HHPX6iZuJwdlLI/53T6HxyHemmjOGOdchp4euEjBxG99vF8vpc9L0kwzFvF6Q7LObIaq5ju3DpRk7o5paWH1oTKQ6YRYcx+tBHXtO1AFUYu+zZfYj/9l8cI7nRI8Bt+A9MWlUGg2QpYegQV54NPRJnAN+heggm0fxAhxCfOxTp8HqgyyzxvQW6MN0sT4uQOFqUsYiI02/9HKygjQKZ837N0rqI2vmDXbqY2aZaY56FPFkc6bsaON593B2j2u0mOfBCCtKK+vuQWlzivoSsjLqdsVg5wvtzqWE4R/R2tS4ESRU0PSMNa0wuqitIHy+nq+oaJCifCQ/dnQTIR9JUiuIkQPbUO95pTEJP/gMHA8Vx30eG5LHn+xaLUuMCUlJYbG3R6kE0s+yLLcmjS0prV/q2iNfiM0PiZzeoOghYKLa55M/ZymiqOpivAw3Iduw42wp7jZkYIUSe9xOEHy+Sr25catqy1O/6V11sxqDpOY4Oh9CPm8bgaWnp23o+ildTvCoAjdxjwteIQkwRgFRIO5TJ//iF4MA8YEAuEm1RsNQzQ8PN345aHSjAZbe7vOZqvj9mVZT2gaOaazWEGIMqf9oHtsZbD75p3Lhz+8zgzT035HDQbZyC4P+ksKmJ4VJGs7Jk8Sz4SU4uKw23vyE71rWp0OxGED0195obKVcMKnVHyTA5Im3R+CkMcDLnPs/rRb/veWqtJdFPQ20TCWyH4fOzSvyTJDzWP7KTFdBGDYQ3oSbdOfukS2AmE4bYiJK1573bWuq6P9Z/62K8eWucmKNtdIQs28tNDHC/N7X3E3frY52DEXBzybOUt0iRoMsAMzw5jmD1RCK7zVHc3s1VEdGydpCn1TV5e4OydH2nStb4kkms8oqgp6Dp+5p4D6jDSAlvr/qnX3OINRcTMmMhL0y8zq0OXt4gujHYJ1VZRCQRgeARULPKcoyphTw4WfF6X0MSD2KFMKp20KkMWaPjEsBWTVFed1I8/PMcXEQufwfentUPNHqTBY5rDMOXOHWG/0BFCmAxuf8gIuFDBn0jTqE7UrYoQHNExWqc59FeqVeUFkaMgoXf3j6aBT7tY3bOEYGLkISQXE1yKLBpgYHvIlIU38ta5o4Ubh2bH5/qyJLf6YhEucdYmaPGsBLQDjQzB2fEyvQhIt6tA1FJsigxCfnhL3RveFmvUMsPvkbh0bH+TQbscVFfZwg97DH9YsVTrNfX7prsDhKNCIQng+12qKKvsuF/zp10XydhImxZrLGSS0BqkNxhoNlUbLRTYrEpzBloWdXMYpVfKD0WScz4AmiVUpfd3DYE+VFT9Bn2nd/BQYHsolwTY+edZMbWSEpxc3gBwCxWDGRNMoBH2QdVgfLvGwJYZJ04E5naYpUGCNtd64F5dW5O6+fuz01VQ6+XrOsu9vZ4tYDhmzHSbKcb1NHx0xCegr59XMje/j9MWztVAS7TA9x3H0Cw1xhGg6hDDBguCnG5mThMiywJqe7vcjjbhpNSgCLxxd82byiQXHYe7C0jmO801t/XQ+DEjHKVBor38vWwNdakHF+gY2MZ3Ky+18ef1b2ukfbYn23byWq4ZkVfEOSZ2XLrGvtogrbPq+h/KkY1NT/N69G6gX/6By+87ox8vK5+QWlGZS7dSckd4V6SL6JCcxnmTGx3wxucNOnzl2f7Ibyk4vbuo+A2GRZ2OYmBCBzL649p+6nnribFMmrboXEc/HUW5KXb16m+v4ySdV/8TrBPAIjWQSaOoKGt7fdt3qqHpgLtLWQ13EEEbOzs4WQVGW0hOtpC1VRkcD5tEf6Sfa1lAo1G91OlUas1BGaup8+vo/gzTtJi0dPwqFOlEgMN7t9bqp1YhnKAJl2p8wYHl5Oe/s6ZmrIfQYIohVlY421rVuR89n/7SWFdf/RX8HamKwc2H8JvoAAAAASUVORK5CYII=",
+            "url": "#"
+        },
+        "jasmine": {
+            "alt": "Jasmine",
+            "img": "https://img.shields.io/badge/Jasmine-8A4182?logo=Jasmine&logoColor=white",
+            "url": "#"
+        },
+        "javascript": {
+            "alt": "JavaScript",
+            "img": "https://img.shields.io/badge/JavaScript-323330?logo=javascript&logoColor=F7DF1E",
+            "url": "#"
+        },
+        "jekyll": {
+            "alt": "Jekyll",
+            "img": "https://img.shields.io/badge/Jekyll-CC0000?logo=Jekyll&logoColor=white",
+            "url": "#"
+        },
+        "jenkins": {
+            "alt": "Jenkins",
+            "img": "https://img.shields.io/badge/Jenkins-D24939?logo=Jenkins&logoColor=white",
+            "url": "#"
+        },
+        "jest": {
+            "alt": "Jest",
+            "img": "https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white",
+            "url": "#"
+        },
+        "jira": {
+            "alt": "Jira",
+            "img": "https://img.shields.io/badge/Jira-0052CC?logo=Jira&logoColor=white",
+            "url": "#"
+        },
+        "joomla": {
+            "alt": "Joomla",
+            "img": "https://img.shields.io/badge/Joomla-5091CD?logo=joomla&logoColor=white",
+            "url": "#"
+        },
+        "joplin": {
+            "alt": "Joplin",
+            "img": "https://img.shields.io/badge/Joplin-1071D3?logo=joplin&logoColor=white",
+            "url": "#"
+        },
+        "jquery": {
+            "alt": "jQuery",
+            "img": "https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=white",
+            "url": "#"
+        },
+        "jsdelivr": {
+            "alt": "jsDelivr",
+            "img": "https://img.shields.io/badge/jsDelivr-E84D3D?logo=jsDelivr&logoColor=white",
+            "url": "#"
+        },
+        "jsfiddle": {
+            "alt": "JSFiddle",
+            "img": "https://img.shields.io/badge/JSFiddle-0084FF?logo=JSFiddle&logoColor=white",
+            "url": "#"
+        },
+        "json": {
+            "alt": "json",
+            "img": "https://img.shields.io/badge/json-5E5C5C?logo=json&logoColor=white",
+            "url": "#"
+        },
+        "jss": {
+            "alt": "JSS",
+            "img": "https://img.shields.io/badge/JSS-F7DF1E?logo=JSS&logoColor=white",
+            "url": "#"
+        },
+        "julia": {
+            "alt": "Julia",
+            "img": "https://img.shields.io/badge/Julia-9558B2?logo=julia&logoColor=white",
+            "url": "#"
+        },
+        "junit5": {
+            "alt": "Junit5",
+            "img": "https://img.shields.io/badge/Junit5-25A162?logo=junit5&logoColor=white",
+            "url": "#"
+        },
+        "jupyter": {
+            "alt": "Jupyter",
+            "img": "https://img.shields.io/badge/Jupyter-F37626.svg?&logo=Jupyter&logoColor=white",
+            "url": "#"
+        },
+        "jwt": {
+            "alt": "JWT",
+            "img": "https://img.shields.io/badge/JWT-000000?logo=JSON%20web%20tokens&logoColor=white",
+            "url": "#"
+        },
+        "kaggle": {
+            "alt": "Kaggle",
+            "img": "https://img.shields.io/badge/Kaggle-20BEFF?logo=Kaggle&logoColor=white",
+            "url": "#"
+        },
+        "kaggle-1": {
+            "alt": "Kaggle",
+            "img": "https://img.shields.io/badge/Kaggle-20BEFF?logo=Kaggle&logoColor=white",
+            "url": "#"
+        },
+        "kali_linux": {
+            "alt": "Kali_Linux",
+            "img": "https://img.shields.io/badge/Kali_Linux-557C94?logo=kali-linux&logoColor=white",
+            "url": "#"
+        },
+        "keras": {
+            "alt": "Keras",
+            "img": "https://img.shields.io/badge/Keras-D00000?logo=Keras&logoColor=white",
+            "url": "#"
+        },
+        "keras-1": {
+            "alt": "Keras",
+            "img": "https://img.shields.io/badge/Keras-FF0000?logo=keras&logoColor=white",
+            "url": "#"
+        },
+        "kfc": {
+            "alt": "KFC",
+            "img": "https://img.shields.io/badge/KFC-F40027?logo=kfc&logoColor=white",
+            "url": "#"
+        },
+        "khan-academy": {
+            "alt": "Khan Academy",
+            "img": "https://img.shields.io/badge/Khan%20Academy-14BF96?logo=Khan%20Academy&logoColor=white",
+            "url": "#"
+        },
+        "kibana": {
+            "alt": "Kibana",
+            "img": "https://img.shields.io/badge/Kibana-005571?logo=Kibana&logoColor=white",
+            "url": "#"
+        },
+        "kibana-1": {
+            "alt": "Kibana",
+            "img": "https://img.shields.io/badge/Kibana-005571?logo=Kibana&logoColor=white",
+            "url": "#"
+        },
+        "kik": {
+            "alt": "Kik",
+            "img": "https://img.shields.io/badge/Kik-5AC710?logo=kik&logoColor=white",
+            "url": "#"
+        },
+        "ko": {
+            "alt": "Ko",
+            "img": "https://img.shields.io/badge/Ko--fi-F16061?logo=ko-fi&logoColor=white",
+            "url": "#"
+        },
+        "kotlin": {
+            "alt": "Kotlin",
+            "img": "https://img.shields.io/badge/Kotlin-0095D5?&logo=kotlin&logoColor=white",
+            "url": "#"
+        },
+        "krita": {
+            "alt": "Krita",
+            "img": "https://img.shields.io/badge/Krita-203759?logo=krita&logoColor=EEF37B",
+            "url": "#"
+        },
+        "kubernetes": {
+            "alt": "kubernetes",
+            "img": "https://img.shields.io/badge/kubernetes-326ce5.svg?&logo=kubernetes&logoColor=white",
+            "url": "#"
+        },
+        "laragon": {
+            "alt": "Laragon",
+            "img": "https://img.shields.io/badge/Laragon-0E83CD?logo=Laragon&logoColor=white",
+            "url": "#"
+        },
+        "laravel": {
+            "alt": "Laravel",
+            "img": "https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white",
+            "url": "#"
+        },
+        "last-fm": {
+            "alt": "last-fm",
+            "img": "https://img.shields.io/badge/last.fm-D51007?logo=last.fm&logoColor=white",
+            "url": "#"
+        },
+        "latex": {
+            "alt": "LaTeX",
+            "img": "https://img.shields.io/badge/LaTeX-47A141?logo=LaTeX&logoColor=white",
+            "url": "#"
+        },
+        "leaflet": {
+            "alt": "Leaflet",
+            "img": "https://img.shields.io/badge/Leaflet-199900?logo=Leaflet&logoColor=white",
+            "url": "#"
+        },
+        "leetcode": {
+            "alt": "LeetCode",
+            "img": "https://img.shields.io/badge/-LeetCode-FFA116?logo=LeetCode&logoColor=black",
+            "url": "#"
+        },
+        "lenovo-laptop": {
+            "alt": "lenovo laptop",
+            "img": "https://img.shields.io/badge/lenovo%20laptop-E2231A?logo=lenovo&logoColor=white",
+            "url": "#"
+        },
+        "lerna": {
+            "alt": "Lerna",
+            "img": "https://img.shields.io/badge/Lerna-3E3E3E?logo=lerna&logoColor=white",
+            "url": "#"
+        },
+        "liberapay": {
+            "alt": "Liberapay",
+            "img": "https://img.shields.io/badge/Liberapay-F6C915?logo=liberapay&logoColor=black",
+            "url": "#"
+        },
+        "libreoffice": {
+            "alt": "LibreOffice",
+            "img": "https://img.shields.io/badge/LibreOffice-18A303?logo=LibreOffice&logoColor=white",
+            "url": "#"
+        },
+        "lighthouse": {
+            "alt": "Lighthouse",
+            "img": "https://img.shields.io/badge/Lighthouse-F44B21?logo=Lighthouse&logoColor=white",
+            "url": "#"
+        },
+        "line": {
+            "alt": "Line",
+            "img": "https://img.shields.io/badge/Line-00C300?logo=line&logoColor=white",
+            "url": "#"
+        },
+        "lineageos": {
+            "alt": "lineageos",
+            "img": "https://img.shields.io/badge/lineageos-167C80?logo=lineageos&logoColor=white",
+            "url": "#"
+        },
+        "linkedin": {
+            "alt": "LinkedIn",
+            "img": "https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white",
+            "url": "#"
+        },
+        "linktree": {
+            "alt": "linktree",
+            "img": "https://img.shields.io/badge/linktree-39E09B?logo=linktree&logoColor=white",
+            "url": "#"
+        },
+        "linode": {
+            "alt": "Linode",
+            "img": "https://img.shields.io/badge/Linode-00A95C?logo=Linode&logoColor=white",
+            "url": "#"
+        },
+        "linux": {
+            "alt": "Linux",
+            "img": "https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black",
+            "url": "#"
+        },
+        "linux_mint": {
+            "alt": "Linux_Mint",
+            "img": "https://img.shields.io/badge/Linux_Mint-87CF3E?logo=linux-mint&logoColor=white",
+            "url": "#"
+        },
+        "lit": {
+            "alt": "lit",
+            "img": "https://img.shields.io/badge/lit-324FFF?logo=lit&logoColor=white",
+            "url": "#"
+        },
+        "litecoin": {
+            "alt": "Litecoin",
+            "img": "https://img.shields.io/badge/Litecoin-A6A9AA?logo=Litecoin&logoColor=white",
+            "url": "#"
+        },
+        "livewire": {
+            "alt": "livewire",
+            "img": "https://img.shields.io/badge/livewire-4e56a6?logo=livewire&logoColor=white",
+            "url": "#"
+        },
+        "lua": {
+            "alt": "Lua",
+            "img": "https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=white",
+            "url": "#"
+        },
+        "mac-os": {
+            "alt": "mac os",
+            "img": "https://img.shields.io/badge/mac%20os-000000?logo=apple&logoColor=white",
+            "url": "#"
+        },
+        "manjaro": {
+            "alt": "manjaro",
+            "img": "https://img.shields.io/badge/manjaro-35BF5C?logo=manjaro&logoColor=white",
+            "url": "#"
+        },
+        "mariadb": {
+            "alt": "MariaDB",
+            "img": "https://img.shields.io/badge/MariaDB-003545?logo=mariadb&logoColor=white",
+            "url": "#"
+        },
+        "markdown": {
+            "alt": "Markdown",
+            "img": "https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white",
+            "url": "#"
+        },
+        "marko": {
+            "alt": "Marko",
+            "img": "https://img.shields.io/badge/Marko-3daee4?logo=marko&logoColor=white",
+            "url": "#"
+        },
+        "mastercard": {
+            "alt": "MasterCard",
+            "img": "https://img.shields.io/badge/MasterCard-EB001B?logo=MasterCard&logoColor=white",
+            "url": "#"
+        },
+        "mastodon": {
+            "alt": "Mastodon",
+            "img": "https://img.shields.io/badge/Mastodon-6364FF?logo=Mastodon&logoColor=white",
+            "url": "#"
+        },
+        "material-design": {
+            "alt": "material design",
+            "img": "https://img.shields.io/badge/material%20design-757575?logo=material%20design&logoColor=white",
+            "url": "#"
+        },
+        "material-ui": {
+            "alt": "Material UI",
+            "img": "https://img.shields.io/badge/Material%20UI-007FFF?logo=mui&logoColor=white",
+            "url": "#"
+        },
+        "matomo": {
+            "alt": "Matomo",
+            "img": "https://img.shields.io/badge/Matomo-3152A0?logo=Matomo&logoColor=white",
+            "url": "#"
+        },
+        "matrix": {
+            "alt": "matrix",
+            "img": "https://img.shields.io/badge/matrix-000000?logo=Matrix&logoColor=white",
+            "url": "#"
+        },
+        "matter-js": {
+            "alt": "Matter js",
+            "img": "https://img.shields.io/badge/Matter%20js-4B5562?logo=Matterdotjs&logoColor=white",
+            "url": "#"
+        },
+        "mattermost": {
+            "alt": "Mattermost",
+            "img": "https://img.shields.io/badge/Mattermost-0058CC?logo=Mattermost&logoColor=white",
+            "url": "#"
+        },
+        "mcdonald's": {
+            "alt": "McDonald's",
+            "img": "https://img.shields.io/badge/McDonald's-FBC817?logo=McDonald's&logoColor=white",
+            "url": "#"
+        },
+        "mdn_web_docs": {
+            "alt": "MDN_Web_Docs",
+            "img": "https://img.shields.io/badge/MDN_Web_Docs-black?logo=mdnwebdocs&logoColor=white",
+            "url": "#"
+        },
+        "medium": {
+            "alt": "Medium",
+            "img": "https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white",
+            "url": "#"
+        },
+        "mendeley": {
+            "alt": "Mendeley",
+            "img": "https://img.shields.io/badge/Mendeley-9D1620?logo=Mendeley&logoColor=white",
+            "url": "#"
+        },
+        "messenger": {
+            "alt": "Messenger",
+            "img": "https://img.shields.io/badge/Messenger-00B2FF?logo=messenger&logoColor=white",
+            "url": "#"
+        },
+        "metabase": {
+            "alt": "Metabase",
+            "img": "https://img.shields.io/badge/Metabase-509EE3?logo=metabase&logoColor=fff",
+            "url": "#"
+        },
+        "micro-blog": {
+            "alt": "Micro blog",
+            "img": "https://img.shields.io/badge/Micro%20blog-FF8800?logo=Microdotblog&logoColor=white",
+            "url": "#"
+        },
+        "micro:bit": {
+            "alt": "micro:bit",
+            "img": "https://img.shields.io/badge/micro:bit-00ED00?logo=micro:bit&logoColor=white",
+            "url": "#"
+        },
+        "microsoft": {
+            "alt": "Microsoft",
+            "img": "https://img.shields.io/badge/Microsoft-666666?logo=microsoft&logoColor=white",
+            "url": "#"
+        },
+        "microsoft-academic": {
+            "alt": "Microsoft Academic",
+            "img": "https://img.shields.io/badge/Microsoft%20Academic-2D9FD9?logo=Microsoft%20Academic&logoColor=white",
+            "url": "#"
+        },
+        "microsoft-azure": {
+            "alt": "microsoft azure",
+            "img": "https://img.shields.io/badge/microsoft%20azure-0089D6?logo=microsoft-azure&logoColor=white",
+            "url": "#"
+        },
+        "microsoft-sql-server": {
+            "alt": "Microsoft SQL Server",
+            "img": "https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?logo=microsoft%20sql%20server&logoColor=white",
+            "url": "#"
+        },
+        "microsoft_access": {
+            "alt": "Microsoft_Access",
+            "img": "https://img.shields.io/badge/Microsoft_Access-A4373A?logo=microsoft-access&logoColor=white",
+            "url": "#"
+        },
+        "microsoft_edge": {
+            "alt": "Microsoft_Edge",
+            "img": "https://img.shields.io/badge/Microsoft_Edge-0078D7?logo=Microsoft-edge&logoColor=white",
+            "url": "#"
+        },
+        "microsoft_excel": {
+            "alt": "Microsoft_Excel",
+            "img": "https://img.shields.io/badge/Microsoft_Excel-217346?logo=microsoft-excel&logoColor=white",
+            "url": "#"
+        },
+        "microsoft_office": {
+            "alt": "Microsoft_Office",
+            "img": "https://img.shields.io/badge/Microsoft_Office-D83B01?logo=microsoft-office&logoColor=white",
+            "url": "#"
+        },
+        "microsoft_outlook": {
+            "alt": "Microsoft_Outlook",
+            "img": "https://img.shields.io/badge/Microsoft_Outlook-0078D4?logo=microsoft-outlook&logoColor=white",
+            "url": "#"
+        },
+        "microsoft_powerpoint": {
+            "alt": "Microsoft_PowerPoint",
+            "img": "https://img.shields.io/badge/Microsoft_PowerPoint-B7472A?logo=microsoft-powerpoint&logoColor=white",
+            "url": "#"
+        },
+        "microsoft_sharepoint": {
+            "alt": "Microsoft_SharePoint",
+            "img": "https://img.shields.io/badge/Microsoft_SharePoint-0078D4?logo=microsoft-sharepoint&logoColor=white",
+            "url": "#"
+        },
+        "microsoft_sql_server": {
+            "alt": "Microsoft_SQL_Server",
+            "img": "https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?logo=microsoft-sql-server&logoColor=white",
+            "url": "#"
+        },
+        "microsoft_teams": {
+            "alt": "Microsoft_Teams",
+            "img": "https://img.shields.io/badge/Microsoft_Teams-6264A7?logo=microsoft-teams&logoColor=white",
+            "url": "#"
+        },
+        "microsoft_visio": {
+            "alt": "Microsoft_Visio",
+            "img": "https://img.shields.io/badge/Microsoft_Visio-3955A3?logo=microsoft-visio&logoColor=white",
+            "url": "#"
+        },
+        "microsoft_word": {
+            "alt": "Microsoft_Word",
+            "img": "https://img.shields.io/badge/Microsoft_Word-2B579A?logo=microsoft-word&logoColor=white",
+            "url": "#"
+        },
+        "miro": {
+            "alt": "Miro",
+            "img": "https://img.shields.io/badge/Miro-F7C922?logo=Miro&logoColor=050036",
+            "url": "#"
+        },
+        "mix-cloud": {
+            "alt": "mix cloud",
+            "img": "https://img.shields.io/badge/mix%20cloud-5000ff?logo=mixcloud&logoColor=white",
+            "url": "#"
+        },
+        "mocha": {
+            "alt": "Mocha",
+            "img": "https://img.shields.io/badge/Mocha-8D6748?logo=Mocha&logoColor=white",
+            "url": "#"
+        },
+        "monero": {
+            "alt": "monero",
+            "img": "https://img.shields.io/badge/monero-FF6600?logo=monero&logoColor=white",
+            "url": "#"
+        },
+        "mongodb": {
+            "alt": "MongoDB",
+            "img": "https://img.shields.io/badge/MongoDB-4EA94B?logo=mongodb&logoColor=white",
+            "url": "#"
+        },
+        "msi-laptop": {
+            "alt": "MSI laptop",
+            "img": "https://img.shields.io/badge/MSI%20laptop-FF0000?logo=msi&logoColor=white",
+            "url": "#"
+        },
+        "myanimelist": {
+            "alt": "Myanimelist",
+            "img": "https://img.shields.io/badge/Myanimelist-2E51A2?logo=myanimelist&logoColor=white",
+            "url": "#"
+        },
+        "mysql": {
+            "alt": "MySQL",
+            "img": "https://img.shields.io/badge/MySQL-005C84?logo=mysql&logoColor=white",
+            "url": "#"
+        },
+        "nano": {
+            "alt": "nano",
+            "img": "https://img.shields.io/badge/nano-4A90E2?logo=nano&logoColor=white",
+            "url": "#"
+        },
+        "nativescript": {
+            "alt": "NativeScript",
+            "img": "https://img.shields.io/badge/NativeScript-3655FF?logo=NativeScript&logoColor=black",
+            "url": "#"
+        },
+        "naver": {
+            "alt": "NAVER",
+            "img": "https://img.shields.io/badge/NAVER-03C75A?logo=NAVER&logoColor=FFFFFF",
+            "url": "#"
+        },
+        "neo4j": {
+            "alt": "Neo4j",
+            "img": "https://img.shields.io/badge/Neo4j-018bff?logo=neo4j&logoColor=white",
+            "url": "#"
+        },
+        "neovim": {
+            "alt": "NeoVim",
+            "img": "https://img.shields.io/badge/NeoVim-%2357A143.svg?&logo=neovim&logoColor=white",
+            "url": "#"
+        },
+        "nestjs": {
+            "alt": "nestjs",
+            "img": "https://img.shields.io/badge/nestjs-E0234E?logo=nestjs&logoColor=white",
+            "url": "#"
+        },
+        "net": {
+            "alt": "NET",
+            "img": "https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white",
+            "url": "#"
+        },
+        "netflix": {
+            "alt": "Netflix",
+            "img": "https://img.shields.io/badge/Netflix-E50914?logo=netflix&logoColor=white",
+            "url": "#"
+        },
+        "netlify": {
+            "alt": "Netlify",
+            "img": "https://img.shields.io/badge/Netlify-00C7B7?logo=netlify&logoColor=white",
+            "url": "#"
+        },
+        "neutralionsjs": {
+            "alt": "Neutralionsjs",
+            "img": "https://img.shields.io/badge/Neutralionsjs-F89901?logo=neutralinojs&logoColor=white",
+            "url": "#"
+        },
+        "next-js": {
+            "alt": "next-js",
+            "img": "https://img.shields.io/badge/next.js-000000?logo=nextdotjs&logoColor=white",
+            "url": "#"
+        },
+        "nextcloud": {
+            "alt": "Nextcloud",
+            "img": "https://img.shields.io/badge/Nextcloud-0082C9?logo=Nextcloud&logoColor=white",
+            "url": "#"
+        },
+        "nginx": {
+            "alt": "Nginx",
+            "img": "https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white",
+            "url": "#"
+        },
+        "nintendo_3ds": {
+            "alt": "Nintendo_3DS",
+            "img": "https://img.shields.io/badge/Nintendo_3DS-D12228?logo=nintendo-3ds&logoColor=white",
+            "url": "#"
+        },
+        "nintendo_switch": {
+            "alt": "Nintendo_Switch",
+            "img": "https://img.shields.io/badge/Nintendo_Switch-E60012?logo=nintendo-switch&logoColor=white",
+            "url": "#"
+        },
+        "nixos": {
+            "alt": "NixOS",
+            "img": "https://img.shields.io/badge/NixOS-5277C3?logo=nixos&logoColor=white",
+            "url": "#"
+        },
+        "node": {
+            "alt": "Node",
+            "img": "https://img.shields.io/badge/Node--Red-8F0000?logo=nodered&logoColor=white",
+            "url": "#"
+        },
+        "node-js": {
+            "alt": "Node-js",
+            "img": "https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white",
+            "url": "#"
+        },
+        "notepad++": {
+            "alt": "Notepad++",
+            "img": "https://img.shields.io/badge/Notepad++-90E59A.svg?logo=notepad%2B%2B&logoColor=black",
+            "url": "#"
+        },
+        "notion": {
+            "alt": "Notion",
+            "img": "https://img.shields.io/badge/Notion-000000?logo=notion&logoColor=white",
+            "url": "#"
+        },
+        "npm": {
+            "alt": "npm",
+            "img": "https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white",
+            "url": "#"
+        },
+        "nuget": {
+            "alt": "NuGet",
+            "img": "https://img.shields.io/badge/NuGet-004880?logo=nuget&logoColor=white",
+            "url": "#"
+        },
+        "numba": {
+            "alt": "Numba",
+            "img": "https://img.shields.io/badge/Numba-00A3E0?logo=Numba&logoColor=white",
+            "url": "#"
+        },
+        "numpy": {
+            "alt": "Numpy",
+            "img": "https://img.shields.io/badge/Numpy-777BB4?logo=numpy&logoColor=white",
+            "url": "#"
+        },
+        "nunjucks": {
+            "alt": "Nunjucks",
+            "img": "https://img.shields.io/badge/Nunjucks-1C4913?logo=nunjucks&logoColor=white",
+            "url": "#"
+        },
+        "nuxt-js": {
+            "alt": "nuxt-js",
+            "img": "https://img.shields.io/badge/nuxt.js-00C58E?logo=nuxtdotjs&logoColor=white",
+            "url": "#"
+        },
+        "nvidia": {
+            "alt": "NVIDIA",
+            "img": "https://img.shields.io/badge/NVIDIA-GTX1650-76B900?logo=nvidia&logoColor=white",
+            "url": "#"
+        },
+        "obsidian": {
+            "alt": "Obsidian",
+            "img": "https://img.shields.io/badge/Obsidian-483699?logo=Obsidian&logoColor=white",
+            "url": "#"
+        },
+        "octopus-deploy": {
+            "alt": "Octopus Deploy",
+            "img": "https://img.shields.io/badge/Octopus%20Deploy-2F93E0?logo=Octopus%20Deploy&logoColor=white",
+            "url": "#"
+        },
+        "opencollective": {
+            "alt": "OpenCollective",
+            "img": "https://img.shields.io/badge/OpenCollective-1F87FF?logo=OpenCollective&logoColor=white",
+            "url": "#"
+        },
+        "opencv": {
+            "alt": "OpenCV",
+            "img": "https://img.shields.io/badge/OpenCV-27338e?logo=OpenCV&logoColor=white",
+            "url": "#"
+        },
+        "opengl": {
+            "alt": "OpenGL",
+            "img": "https://img.shields.io/badge/OpenGL-FFFFFF?logo=opengl",
+            "url": "#"
+        },
+        "openjdk": {
+            "alt": "OpenJDK",
+            "img": "https://img.shields.io/badge/OpenJDK-ED8B00?logo=openjdk&logoColor=white",
+            "url": "#"
+        },
+        "openstreetmap": {
+            "alt": "OpenStreetMap",
+            "img": "https://img.shields.io/badge/OpenStreetMap-7EBC6F?logo=OpenStreetMap&logoColor=white",
+            "url": "#"
+        },
+        "openwrt": {
+            "alt": "OpenWrt",
+            "img": "https://img.shields.io/badge/OpenWrt-00B5E2?logo=OpenWrt&logoColor=white",
+            "url": "#"
+        },
+        "openzeppelin": {
+            "alt": "OpenZeppelin",
+            "img": "https://img.shields.io/badge/OpenZeppelin-4E5EE4?logo=OpenZeppelin&logoColor=fff",
+            "url": "#"
+        },
+        "opera": {
+            "alt": "Opera",
+            "img": "https://img.shields.io/badge/Opera-FF1B2D?logo=Opera&logoColor=white",
+            "url": "#"
+        },
+        "oracle": {
+            "alt": "Oracle",
+            "img": "https://img.shields.io/badge/Oracle-F80000?logo=oracle&logoColor=black",
+            "url": "#"
+        },
+        "oracle-1": {
+            "alt": "Oracle",
+            "img": "https://img.shields.io/badge/Oracle-F80000?logo=Oracle&logoColor=white",
+            "url": "#"
+        },
+        "orcid": {
+            "alt": "orcid",
+            "img": "https://img.shields.io/badge/orcid-A6CE39?logo=orcid&logoColor=white",
+            "url": "#"
+        },
+        "origin": {
+            "alt": "Origin",
+            "img": "https://img.shields.io/badge/Origin-148EFF?logo=origin&logoColor=white",
+            "url": "#"
+        },
+        "overleaf": {
+            "alt": "Overleaf",
+            "img": "https://img.shields.io/badge/Overleaf-47A141?logo=Overleaf&logoColor=white",
+            "url": "#"
+        },
+        "p5-js": {
+            "alt": "p5 js",
+            "img": "https://img.shields.io/badge/p5%20js-ED225D?logo=p5dotjs&logoColor=white",
+            "url": "#"
+        },
+        "packagist": {
+            "alt": "Packagist",
+            "img": "https://img.shields.io/badge/Packagist-F28D1A?logo=Packagist&logoColor=white",
+            "url": "#"
+        },
+        "pandas": {
+            "alt": "Pandas",
+            "img": "https://img.shields.io/badge/Pandas-2C2D72?logo=pandas&logoColor=white",
+            "url": "#"
+        },
+        "pandora": {
+            "alt": "Pandora",
+            "img": "https://img.shields.io/badge/Pandora-3668FF?logo=pandora&logoColor=A15BB4",
+            "url": "#"
+        },
+        "patreon": {
+            "alt": "Patreon",
+            "img": "https://img.shields.io/badge/Patreon-F96854?logo=patreon&logoColor=white",
+            "url": "#"
+        },
+        "payoneer": {
+            "alt": "Payoneer",
+            "img": "https://img.shields.io/badge/Payoneer-D73F03?logo=payoneer&logoColor=white",
+            "url": "#"
+        },
+        "paypal": {
+            "alt": "PayPal",
+            "img": "https://img.shields.io/badge/PayPal-00457C?logo=paypal&logoColor=white",
+            "url": "#"
+        },
+        "paytm": {
+            "alt": "Paytm",
+            "img": "https://img.shields.io/badge/Paytm-002970?logo=paytm&logoColor=00BAF2",
+            "url": "#"
+        },
+        "perl": {
+            "alt": "Perl",
+            "img": "https://img.shields.io/badge/Perl-39457E?logo=perl&logoColor=white",
+            "url": "#"
+        },
+        "phonepe": {
+            "alt": "phonepe",
+            "img": "https://img.shields.io/badge/phonepe-3DDC84?logo=phonepe&logoColor=white&color=purple",
+            "url": "#"
+        },
+        "php": {
+            "alt": "PHP",
+            "img": "https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white",
+            "url": "#"
+        },
+        "picpay": {
+            "alt": "picpay",
+            "img": "https://img.shields.io/badge/picpay-21C25E?logo=picpay&logoColor=white",
+            "url": "#"
+        },
+        "pinterest": {
+            "alt": "Pinterest",
+            "img": "https://img.shields.io/badge/Pinterest-%23E60023.svg?&logo=Pinterest&logoColor=white",
+            "url": "#"
+        },
+        "platzi": {
+            "alt": "Platzi",
+            "img": "https://img.shields.io/badge/Platzi-98CA3F?logo=platzi&logoColor=white",
+            "url": "#"
+        },
+        "playstation": {
+            "alt": "PlayStation",
+            "img": "https://img.shields.io/badge/PlayStation-003791?logo=playstation&logoColor=white",
+            "url": "#"
+        },
+        "playwright": {
+            "alt": "Playwright",
+            "img": "https://img.shields.io/badge/Playwright-45ba4b?logo=Playwright&logoColor=white",
+            "url": "#"
+        },
+        "plotly": {
+            "alt": "Plotly",
+            "img": "https://img.shields.io/badge/Plotly-239120?logo=plotly&logoColor=white",
+            "url": "#"
+        },
+        "plsql": {
+            "alt": "PLSQL",
+            "img": "https://img.shields.io/badge/PLSQL-F80000?logo=oracle&logoColor=black",
+            "url": "#"
+        },
+        "pluralsight": {
+            "alt": "Pluralsight",
+            "img": "https://img.shields.io/badge/Pluralsight-F15B2A?logo=Pluralsight&logoColor=white",
+            "url": "#"
+        },
+        "polkadot": {
+            "alt": "polkadot",
+            "img": "https://img.shields.io/badge/polkadot-E6007A?logo=polkadot&logoColor=000",
+            "url": "#"
+        },
+        "polygon": {
+            "alt": "Polygon",
+            "img": "https://tinyurl.com/ys9yfcpw",
+            "url": "#"
+        },
+        "polywork": {
+            "alt": "polywork",
+            "img": "https://img.shields.io/badge/polywork-543DE0?logo=polywork&logoColor=white",
+            "url": "#"
+        },
+        "pop!_os": {
+            "alt": "Pop!_OS",
+            "img": "https://img.shields.io/badge/Pop!_OS-48B9C7?logo=Pop!_OS&logoColor=white",
+            "url": "#"
+        },
+        "postgresql": {
+            "alt": "PostgreSQL",
+            "img": "https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white",
+            "url": "#"
+        },
+        "postman": {
+            "alt": "Postman",
+            "img": "https://img.shields.io/badge/Postman-FF6C37?logo=Postman&logoColor=white",
+            "url": "#"
+        },
+        "postmates": {
+            "alt": "Postmates",
+            "img": "https://img.shields.io/badge/Postmates-000000?logo=Postmates&logoColor=white",
+            "url": "#"
+        },
+        "powerbi": {
+            "alt": "PowerBI",
+            "img": "https://img.shields.io/badge/PowerBI-F2C811?logo=Power%20BI&logoColor=white",
+            "url": "#"
+        },
+        "powershell": {
+            "alt": "powershell",
+            "img": "https://img.shields.io/badge/powershell-5391FE?logo=powershell&logoColor=white",
+            "url": "#"
+        },
+        "prettier": {
+            "alt": "prettier",
+            "img": "https://img.shields.io/badge/prettier-1A2C34?logo=prettier&logoColor=F7BA3E",
+            "url": "#"
+        },
+        "prezi": {
+            "alt": "Prezi",
+            "img": "https://img.shields.io/badge/Prezi-3181FF?logo=prezi&logoColor=white",
+            "url": "#"
+        },
+        "prisma": {
+            "alt": "Prisma",
+            "img": "https://img.shields.io/badge/Prisma-3982CE?logo=Prisma&logoColor=white",
+            "url": "#"
+        },
+        "profile-visitors": {
+            "alt": "Profile Visitors",
+            "img": "https://img.shields.io/badge/Profile%20Visitors-172B4D?logo=Opsgenie&logoColor=white",
+            "url": "#"
+        },
+        "progate": {
+            "alt": "Progate",
+            "img": "https://img.shields.io/badge/Progate-380953?logo=progate&logoColor=white",
+            "url": "#"
+        },
+        "prometheus": {
+            "alt": "Prometheus",
+            "img": "https://img.shields.io/badge/Prometheus-000000?logo=prometheus&labelColor=000000",
+            "url": "#"
+        },
+        "proto-io": {
+            "alt": "Proto-io",
+            "img": "https://img.shields.io/badge/Proto.io-161637?logo=proto.io&logoColor=00e5ff",
+            "url": "#"
+        },
+        "protonmail": {
+            "alt": "ProtonMail",
+            "img": "https://img.shields.io/badge/ProtonMail-8B89CC?logo=protonmail&logoColor=white",
+            "url": "#"
+        },
+        "pug": {
+            "alt": "Pug",
+            "img": "https://img.shields.io/badge/Pug-E3C29B?logo=pug&logoColor=black",
+            "url": "#"
+        },
+        "pulumi": {
+            "alt": "Pulumi",
+            "img": "https://img.shields.io/badge/Pulumi-8A3391?logo=pulumi&logoColor=white",
+            "url": "#"
+        },
+        "puppeteer": {
+            "alt": "Puppeteer",
+            "img": "https://img.shields.io/badge/Puppeteer-40B5A4?logo=Puppeteer&logoColor=white",
+            "url": "#"
+        },
+        "pycharm": {
+            "alt": "PyCharm",
+            "img": "https://img.shields.io/badge/PyCharm-000000.svg?&logo=PyCharm&logoColor=white",
+            "url": "#"
+        },
+        "pypi": {
+            "alt": "pypi",
+            "img": "https://img.shields.io/badge/pypi-3775A9?logo=pypi&logoColor=white",
+            "url": "#"
+        },
+        "python": {
+            "alt": "Python",
+            "img": "https://img.shields.io/badge/Python-FFD43B?logo=python&logoColor=blue",
+            "url": "#"
+        },
+        "pytorch": {
+            "alt": "PyTorch",
+            "img": "https://img.shields.io/badge/PyTorch-EE4C2C?logo=PyTorch&logoColor=white",
+            "url": "#"
+        },
+        "pytorch-1": {
+            "alt": "PyTorch",
+            "img": "https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white",
+            "url": "#"
+        },
+        "pytorch-lightning": {
+            "alt": "PyTorch Lightning",
+            "img": "https://img.shields.io/badge/PyTorch%20Lightning-792DE4?logo=pytorch-lightning&logoColor=white",
+            "url": "#"
+        },
+        "pytorch-lightning-1": {
+            "alt": "PyTorch Lightning",
+            "img": "https://img.shields.io/badge/PyTorch%20Lightning-792EE5?logo=PyTorch Lightning&logoColor=white",
+            "url": "#"
+        },
+        "qgis": {
+            "alt": "qgis",
+            "img": "https://img.shields.io/badge/qgis-3.22_białowieża-93b023?&logo=qgis&logoColor=white",
+            "url": "#"
+        },
+        "qgis-1": {
+            "alt": "qgis",
+            "img": "https://img.shields.io/badge/qgis-3.28_firenze-93b023?&logo=qgis&logoColor=white",
+            "url": "#"
+        },
+        "qt": {
+            "alt": "Qt",
+            "img": "https://img.shields.io/badge/Qt-41CD52?logo=qt&logoColor=white",
+            "url": "#"
+        },
+        "quarkus": {
+            "alt": "Quarkus",
+            "img": "https://img.shields.io/badge/Quarkus-000000?logo=quarkus",
+            "url": "#"
+        },
+        "quasar": {
+            "alt": "Quasar",
+            "img": "https://img.shields.io/badge/Quasar-1976D2?logo=quasar&logoColor=white",
+            "url": "#"
+        },
+        "quora": {
+            "alt": "Quora",
+            "img": "https://img.shields.io/badge/Quora-%23B92B27.svg?&logo=Quora&logoColor=white",
+            "url": "#"
+        },
+        "r": {
+            "alt": "R",
+            "img": "https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white",
+            "url": "#"
+        },
+        "r-1": {
+            "alt": "R",
+            "img": "https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white",
+            "url": "#"
+        },
+        "rabbitmq": {
+            "alt": "rabbitmq",
+            "img": "https://img.shields.io/badge/rabbitmq-%23FF6600.svg?&logo=rabbitmq&logoColor=white",
+            "url": "#"
+        },
+        "railway": {
+            "alt": "Railway",
+            "img": "https://img.shields.io/badge/Railway-131415?logo=railway&logoColor=white",
+            "url": "#"
+        },
+        "rancher": {
+            "alt": "Rancher",
+            "img": "https://img.shields.io/badge/Rancher-0075A8?logo=rancher&logoColor=white",
+            "url": "#"
+        },
+        "raspberry-pi": {
+            "alt": "Raspberry Pi",
+            "img": "https://img.shields.io/badge/Raspberry%20Pi-A22846?logo=Raspberry%20Pi&logoColor=white",
+            "url": "#"
+        },
+        "razer-laptop": {
+            "alt": "razer laptop",
+            "img": "https://img.shields.io/badge/razer%20laptop-44D62D?logo=razer&logoColor=252525",
+            "url": "#"
+        },
+        "razorpay": {
+            "alt": "Razorpay",
+            "img": "https://img.shields.io/badge/Razorpay-02042B?logo=razorpay&logoColor=3395FF",
+            "url": "#"
+        },
+        "react": {
+            "alt": "React",
+            "img": "https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB",
+            "url": "#"
+        },
+        "react-os": {
+            "alt": "react os",
+            "img": "https://img.shields.io/badge/react%20os-0088CC?logo=reactos&logoColor=white",
+            "url": "#"
+        },
+        "react-table": {
+            "alt": "react table",
+            "img": "https://img.shields.io/badge/react%20table-FF4154?logo=react%20table&logoColor=white",
+            "url": "#"
+        },
+        "react_native": {
+            "alt": "React_Native",
+            "img": "https://img.shields.io/badge/React_Native-20232A?logo=react&logoColor=61DAFB",
+            "url": "#"
+        },
+        "react_query": {
+            "alt": "React_Query",
+            "img": "https://img.shields.io/badge/React_Query-FF4154?logo=React_Query&logoColor=white",
+            "url": "#"
+        },
+        "react_router": {
+            "alt": "React_Router",
+            "img": "https://img.shields.io/badge/React_Router-CA4245?logo=react-router&logoColor=white",
+            "url": "#"
+        },
+        "reactivex": {
+            "alt": "ReactiveX",
+            "img": "https://img.shields.io/badge/ReactiveX-B7178C?logo=ReactiveX&logoColor=white",
+            "url": "#"
+        },
+        "realm": {
+            "alt": "Realm",
+            "img": "https://img.shields.io/badge/Realm-39477F?logo=realm&logoColor=white",
+            "url": "#"
+        },
+        "red-hat": {
+            "alt": "Red Hat",
+            "img": "https://img.shields.io/badge/Red%20Hat-EE0000?logo=redhat&logoColor=white",
+            "url": "#"
+        },
+        "reddit": {
+            "alt": "Reddit",
+            "img": "https://img.shields.io/badge/Reddit-FF4500?logo=reddit&logoColor=white",
+            "url": "#"
+        },
+        "redis": {
+            "alt": "redis",
+            "img": "https://img.shields.io/badge/redis-%23DD0031.svg?&logo=redis&logoColor=white",
+            "url": "#"
+        },
+        "redis-1": {
+            "alt": "redis",
+            "img": "https://img.shields.io/badge/redis-CC0000.svg?&logo=redis&logoColor=white",
+            "url": "#"
+        },
+        "redux": {
+            "alt": "Redux",
+            "img": "https://img.shields.io/badge/Redux-593D88?logo=redux&logoColor=white",
+            "url": "#"
+        },
+        "redux-saga": {
+            "alt": "Redux saga",
+            "img": "https://img.shields.io/badge/Redux%20saga-86D46B?logo=redux%20saga&logoColor=999999",
+            "url": "#"
+        },
+        "redwood": {
+            "alt": "Redwood",
+            "img": "https://img.shields.io/badge/Redwood-FDF8F6?logo=redwoodjs&logoColor=BF4722",
+            "url": "#"
+        },
+        "relay": {
+            "alt": "relay",
+            "img": "https://img.shields.io/badge/relay-F26B00?logo=relay&logoColor=white",
+            "url": "#"
+        },
+        "replit": {
+            "alt": "replit",
+            "img": "https://img.shields.io/badge/replit-667881?logo=replit&logoColor=white",
+            "url": "#"
+        },
+        "republic-of-gamers": {
+            "alt": "Republic of Gamers",
+            "img": "https://img.shields.io/badge/Republic%20of%20Gamers-FF0029?logo=Republic%20of%20Gamers&logoColor=white",
+            "url": "#"
+        },
+        "research_gate": {
+            "alt": "Research_Gate",
+            "img": "https://img.shields.io/badge/Research_Gate-00CCBB.svg?&logo=ResearchGate&logoColor=white",
+            "url": "#"
+        },
+        "reveal-js": {
+            "alt": "reveal-js",
+            "img": "https://img.shields.io/badge/reveal.js-F2E142?logo=reveal.js&logoColor=000",
+            "url": "#"
+        },
+        "rider": {
+            "alt": "Rider",
+            "img": "https://img.shields.io/badge/Rider-000000?logo=Rider&logoColor=white",
+            "url": "#"
+        },
+        "riot_games": {
+            "alt": "Riot_Games",
+            "img": "https://img.shields.io/badge/Riot_Games-D32936?logo=riot-games&logoColor=white",
+            "url": "#"
+        },
+        "robot-framework": {
+            "alt": "Robot Framework",
+            "img": "https://img.shields.io/badge/Robot%20Framework-000000?logo=robot-framework&logoColor=white",
+            "url": "#"
+        },
+        "rollup-js": {
+            "alt": "rollup js",
+            "img": "https://img.shields.io/badge/rollup%20js-EC4A3F?logo=rollup.js&logoColor=white",
+            "url": "#"
+        },
+        "rss": {
+            "alt": "RSS",
+            "img": "https://img.shields.io/badge/RSS-FFA500?logo=rss&logoColor=white",
+            "url": "#"
+        },
+        "rstudio": {
+            "alt": "RStudio",
+            "img": "https://img.shields.io/badge/RStudio-75AADB?logo=RStudio&logoColor=white",
+            "url": "#"
+        },
+        "ruby": {
+            "alt": "Ruby",
+            "img": "https://img.shields.io/badge/Ruby-CC342D?logo=ruby&logoColor=white",
+            "url": "#"
+        },
+        "ruby_on_rails": {
+            "alt": "Ruby_on_Rails",
+            "img": "https://img.shields.io/badge/Ruby_on_Rails-CC0000?logo=ruby-on-rails&logoColor=white",
+            "url": "#"
+        },
+        "rust": {
+            "alt": "Rust",
+            "img": "https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white",
+            "url": "#"
+        },
+        "rust-1": {
+            "alt": "Rust",
+            "img": "https://img.shields.io/badge/Rust-black?logo=rust&logoColor=#E57324",
+            "url": "#"
+        },
+        "safari": {
+            "alt": "Safari",
+            "img": "https://img.shields.io/badge/Safari-FF1B2D?logo=Safari&logoColor=white",
+            "url": "#"
+        },
+        "sailfish-os": {
+            "alt": "Sailfish OS",
+            "img": "https://img.shields.io/badge/Sailfish%20OS-053766?logo=Sailfish%20OS&logoColor=white",
+            "url": "#"
+        },
+        "salesforce": {
+            "alt": "Salesforce",
+            "img": "https://img.shields.io/badge/Salesforce-00A1E0?logo=Salesforce&logoColor=white",
+            "url": "#"
+        },
+        "samsung-laptop": {
+            "alt": "samsung laptop",
+            "img": "https://img.shields.io/badge/samsung%20laptop-1428A0?logo=Samsung&logoColor=white",
+            "url": "#"
+        },
+        "samsung-pay": {
+            "alt": "samsung pay",
+            "img": "https://img.shields.io/badge/samsung%20pay-1D49C0?logo=samsung%20pay&logoColor=white",
+            "url": "#"
+        },
+        "sap": {
+            "alt": "SAP",
+            "img": "https://img.shields.io/badge/SAP-0FAAFF?logo=sap&logoColor=white",
+            "url": "#"
+        },
+        "sass": {
+            "alt": "Sass",
+            "img": "https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white",
+            "url": "#"
+        },
+        "scala": {
+            "alt": "Scala",
+            "img": "https://img.shields.io/badge/Scala-DC322F?logo=scala&logoColor=white",
+            "url": "#"
+        },
+        "scikit_learn": {
+            "alt": "scikit_learn",
+            "img": "https://img.shields.io/badge/scikit_learn-F7931E?logo=scikit-learn&logoColor=white",
+            "url": "#"
+        },
+        "scipy": {
+            "alt": "SciPy",
+            "img": "https://img.shields.io/badge/SciPy-654FF0?logo=SciPy&logoColor=white",
+            "url": "#"
+        },
+        "scratch": {
+            "alt": "Scratch",
+            "img": "https://img.shields.io/badge/Scratch-4D97FF?logo=Scratch&logoColor=white",
+            "url": "#"
+        },
+        "scrimba": {
+            "alt": "scrimba",
+            "img": "https://img.shields.io/badge/scrimba-2B283A?logo=scrimba&logoColor=white",
+            "url": "#"
+        },
+        "selenium": {
+            "alt": "Selenium",
+            "img": "https://img.shields.io/badge/Selenium-43B02A?logo=Selenium&logoColor=white",
+            "url": "#"
+        },
+        "semantic-ui-react": {
+            "alt": "semantic ui react",
+            "img": "https://img.shields.io/badge/semantic%20ui%20react-35BDB2?logo=semanticuireact&logoColor=white",
+            "url": "#"
+        },
+        "sencha": {
+            "alt": "Sencha",
+            "img": "https://img.shields.io/badge/Sencha-044059?logo=sencha&logoColor=#95C93D",
+            "url": "#"
+        },
+        "sentry": {
+            "alt": "Sentry",
+            "img": "https://img.shields.io/badge/Sentry-black?logo=Sentry&logoColor=#362D59",
+            "url": "#"
+        },
+        "sequelize": {
+            "alt": "Sequelize",
+            "img": "https://img.shields.io/badge/Sequelize-52B0E7?logo=Sequelize&logoColor=white",
+            "url": "#"
+        },
+        "shazam": {
+            "alt": "Shazam",
+            "img": "https://img.shields.io/badge/Shazam-0088FF?logo=Shazam&logoColor=white",
+            "url": "#"
+        },
+        "shell_script": {
+            "alt": "Shell_Script",
+            "img": "https://img.shields.io/badge/Shell_Script-121011?logo=gnu-bash&logoColor=white",
+            "url": "#"
+        },
+        "shopify": {
+            "alt": "shopify",
+            "img": "https://img.shields.io/badge/shopify-8DB543?logo=Shopify&logoColor=white",
+            "url": "#"
+        },
+        "signal": {
+            "alt": "Signal",
+            "img": "https://img.shields.io/badge/Signal-3A76F0?logo=signal&logoColor=white",
+            "url": "#"
+        },
+        "signal-1": {
+            "alt": "Signal",
+            "img": "https://img.shields.io/badge/Signal-%23039BE5.svg?&logo=Signal&logoColor=white",
+            "url": "#"
+        },
+        "simplenote": {
+            "alt": "Simplenote",
+            "img": "https://img.shields.io/badge/Simplenote-3361CC?logo=Simplenote&logoColor=white",
+            "url": "#"
+        },
+        "sketch": {
+            "alt": "Sketch",
+            "img": "https://img.shields.io/badge/Sketch-FFB387?logo=sketch&logoColor=black",
+            "url": "#"
+        },
+        "skill-share": {
+            "alt": "skill share",
+            "img": "https://img.shields.io/badge/skill%20share-002333?logo=skillshare&logoColor=white",
+            "url": "#"
+        },
+        "skype": {
+            "alt": "Skype",
+            "img": "https://img.shields.io/badge/Skype-00AFF0?logo=skype&logoColor=white",
+            "url": "#"
+        },
+        "slack": {
+            "alt": "Slack",
+            "img": "https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white",
+            "url": "#"
+        },
+        "slideshare": {
+            "alt": "Slideshare",
+            "img": "https://img.shields.io/badge/Slideshare-0077B5?logo=slideshare&logoColor=white",
+            "url": "#"
+        },
+        "snapchat": {
+            "alt": "Snapchat",
+            "img": "https://img.shields.io/badge/Snapchat-FFFC00?logo=snapchat&logoColor=white",
+            "url": "#"
+        },
+        "snyk": {
+            "alt": "Snyk",
+            "img": "https://img.shields.io/badge/Snyk-4C4A73?logo=snyk&logoColor=white",
+            "url": "#"
+        },
+        "socket-io": {
+            "alt": "Socket-io",
+            "img": "https://img.shields.io/badge/Socket.io-010101?&logo=Socket.io&logoColor=white",
+            "url": "#"
+        },
+        "solid-js": {
+            "alt": "Solid JS",
+            "img": "https://img.shields.io/badge/Solid%20JS-2C4F7C?logo=solid&logoColor=white",
+            "url": "#"
+        },
+        "solidity": {
+            "alt": "Solidity",
+            "img": "https://img.shields.io/badge/Solidity-e6e6e6?logo=solidity&logoColor=black",
+            "url": "#"
+        },
+        "sololearn": {
+            "alt": "Sololearn",
+            "img": "https://img.shields.io/badge/-Sololearn-3a464b?logo=Sololearn&logoColor=white",
+            "url": "#"
+        },
+        "sonar-cloud": {
+            "alt": "Sonar cloud",
+            "img": "https://img.shields.io/badge/Sonar%20cloud-F3702A?logo=sonarcloud&logoColor=white",
+            "url": "#"
+        },
+        "sonarlint": {
+            "alt": "SonarLint",
+            "img": "https://img.shields.io/badge/SonarLint-CB2029?logo=sonarlint&logoColor=white",
+            "url": "#"
+        },
+        "soundcloud": {
+            "alt": "SoundCloud",
+            "img": "https://img.shields.io/badge/SoundCloud-FF3300?logo=soundcloud&logoColor=white",
+            "url": "#"
+        },
+        "sourcetree": {
+            "alt": "Sourcetree",
+            "img": "https://img.shields.io/badge/Sourcetree-0052CC?logo=Sourcetree&logoColor=white",
+            "url": "#"
+        },
+        "spark-ar": {
+            "alt": "Spark AR",
+            "img": "https://img.shields.io/badge/Spark%20AR-FF5C83?logo=Spark AR&logoColor=white",
+            "url": "#"
+        },
+        "splunk": {
+            "alt": "Splunk",
+            "img": "https://img.shields.io/badge/Splunk-000000?logo=Splunk&logoColor=white",
+            "url": "#"
+        },
+        "sponsor": {
+            "alt": "sponsor",
+            "img": "https://img.shields.io/badge/sponsor-30363D?logo=GitHub-Sponsors&logoColor=#white",
+            "url": "#"
+        },
+        "spotify": {
+            "alt": "Spotify",
+            "img": "https://img.shields.io/badge/Spotify-1ED760?&logo=spotify&logoColor=white",
+            "url": "#"
+        },
+        "spring": {
+            "alt": "Spring",
+            "img": "https://img.shields.io/badge/Spring-6DB33F?logo=spring&logoColor=white",
+            "url": "#"
+        },
+        "spring_boot": {
+            "alt": "Spring_Boot",
+            "img": "https://img.shields.io/badge/Spring_Boot-F2F4F9?logo=spring-boot",
+            "url": "#"
+        },
+        "spring_security": {
+            "alt": "Spring_Security",
+            "img": "https://img.shields.io/badge/Spring_Security-6DB33F?logo=Spring-Security&logoColor=white",
+            "url": "#"
+        },
+        "spyder-ide": {
+            "alt": "Spyder Ide",
+            "img": "https://img.shields.io/badge/Spyder%20Ide-FF0000?logo=spyder%20ide&logoColor=white",
+            "url": "#"
+        },
+        "sqlite": {
+            "alt": "SQLite",
+            "img": "https://img.shields.io/badge/SQLite-07405E?logo=sqlite&logoColor=white",
+            "url": "#"
+        },
+        "stack_overflow": {
+            "alt": "Stack_Overflow",
+            "img": "https://img.shields.io/badge/Stack_Overflow-FE7A16?logo=stack-overflow&logoColor=white",
+            "url": "#"
+        },
+        "stackexchange": {
+            "alt": "StackExchange",
+            "img": "https://img.shields.io/badge/StackExchange-%23ffffff.svg?&logo=StackExchange&logoColor=white",
+            "url": "#"
+        },
+        "stadia": {
+            "alt": "Stadia",
+            "img": "https://img.shields.io/badge/Stadia-CD2640?logo=stadia&logoColor=white",
+            "url": "#"
+        },
+        "starship": {
+            "alt": "starship",
+            "img": "https://img.shields.io/badge/starship-DD0B78?logo=starship&logoColor=white",
+            "url": "#"
+        },
+        "steam": {
+            "alt": "Steam",
+            "img": "https://img.shields.io/badge/Steam-000000?logo=steam&logoColor=white",
+            "url": "#"
+        },
+        "stellar": {
+            "alt": "Stellar",
+            "img": "https://img.shields.io/badge/Stellar-090020?logo=stellar&logoColor=white",
+            "url": "#"
+        },
+        "storybook": {
+            "alt": "storybook",
+            "img": "https://img.shields.io/badge/storybook-FF4785?logo=storybook&logoColor=white",
+            "url": "#"
+        },
+        "strapi": {
+            "alt": "strapi",
+            "img": "https://img.shields.io/badge/strapi-2F2E8B?logo=strapi&logoColor=white",
+            "url": "#"
+        },
+        "strava": {
+            "alt": "Strava",
+            "img": "https://img.shields.io/badge/Strava-FC4C02?logo=strava&logoColor=white",
+            "url": "#"
+        },
+        "streamlit": {
+            "alt": "Streamlit",
+            "img": "https://img.shields.io/badge/Streamlit-FF4B4B?logo=Streamlit&logoColor=white",
+            "url": "#"
+        },
+        "stripe": {
+            "alt": "Stripe",
+            "img": "https://img.shields.io/badge/Stripe-626CD9?logo=Stripe&logoColor=white",
+            "url": "#"
+        },
+        "styled": {
+            "alt": "styled",
+            "img": "https://img.shields.io/badge/styled--components-DB7093?logo=styled-components&logoColor=white",
+            "url": "#"
+        },
+        "stylelint": {
+            "alt": "stylelint",
+            "img": "https://img.shields.io/badge/stylelint-000?logo=stylelint&logoColor=white",
+            "url": "#"
+        },
+        "stylus": {
+            "alt": "Stylus",
+            "img": "https://img.shields.io/badge/Stylus-333333?logo=stylus&logoColor=white",
+            "url": "#"
+        },
+        "sublime_text": {
+            "alt": "sublime_text",
+            "img": "https://img.shields.io/badge/sublime_text-%23575757.svg?&logo=sublime-text&logoColor=important",
+            "url": "#"
+        },
+        "supabase": {
+            "alt": "Supabase",
+            "img": "https://img.shields.io/badge/Supabase-181818?logo=supabase&logoColor=white",
+            "url": "#"
+        },
+        "suse": {
+            "alt": "SUSE",
+            "img": "https://img.shields.io/badge/SUSE-0C322C?logo=SUSE&logoColor=white",
+            "url": "#"
+        },
+        "svelte": {
+            "alt": "Svelte",
+            "img": "https://img.shields.io/badge/Svelte-4A4A55?logo=svelte&logoColor=FF3E00",
+            "url": "#"
+        },
+        "sveltekit": {
+            "alt": "SvelteKit",
+            "img": "https://img.shields.io/badge/SvelteKit-FF3E00?logo=Svelte&logoColor=white",
+            "url": "#"
+        },
+        "swagger": {
+            "alt": "Swagger",
+            "img": "https://img.shields.io/badge/Swagger-85EA2D?logo=Swagger&logoColor=white",
+            "url": "#"
+        },
+        "swift": {
+            "alt": "Swift",
+            "img": "https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white",
+            "url": "#"
+        },
+        "swiggy": {
+            "alt": "Swiggy",
+            "img": "https://img.shields.io/badge/Swiggy-FC8019?logo=Swiggy&logoColor=white",
+            "url": "#"
+        },
+        "symfony": {
+            "alt": "Symfony",
+            "img": "https://img.shields.io/badge/Symfony-000000?logo=Symfony&logoColor=white",
+            "url": "#"
+        },
+        "tableau": {
+            "alt": "Tableau",
+            "img": "https://img.shields.io/badge/Tableau-E97627?logo=Tableau&logoColor=white",
+            "url": "#"
+        },
+        "tails-": {
+            "alt": "Tails ",
+            "img": "https://img.shields.io/badge/Tails%20-56347C?&logo=tails&logoColor=white",
+            "url": "#"
+        },
+        "tailwind_css": {
+            "alt": "Tailwind_CSS",
+            "img": "https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white",
+            "url": "#"
+        },
+        "talend": {
+            "alt": "Talend",
+            "img": "https://img.shields.io/badge/Talend-FF6D70?logo=Talend&logoColor=white",
+            "url": "#"
+        },
+        "tauri": {
+            "alt": "Tauri",
+            "img": "https://img.shields.io/badge/Tauri-FFC131?logo=Tauri&logoColor=white",
+            "url": "#"
+        },
+        "teamcity": {
+            "alt": "TeamCity",
+            "img": "https://img.shields.io/badge/TeamCity-000000?logo=TeamCity&logoColor=white",
+            "url": "#"
+        },
+        "teamspeak": {
+            "alt": "TeamSpeak",
+            "img": "https://img.shields.io/badge/TeamSpeak-2580C3?logo=teamspeak&logoColor=white",
+            "url": "#"
+        },
+        "telegram": {
+            "alt": "Telegram",
+            "img": "https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white",
+            "url": "#"
+        },
+        "tencent_qq": {
+            "alt": "Tencent_QQ",
+            "img": "https://img.shields.io/badge/Tencent_QQ-EB1923?logo=TencentQQ&logoColor=white",
+            "url": "#"
+        },
+        "tensorflow": {
+            "alt": "TensorFlow",
+            "img": "https://img.shields.io/badge/TensorFlow-FF6F00?logo=TensorFlow&logoColor=white",
+            "url": "#"
+        },
+        "tensorflow-1": {
+            "alt": "TensorFlow",
+            "img": "https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white",
+            "url": "#"
+        },
+        "terraform": {
+            "alt": "Terraform",
+            "img": "https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white",
+            "url": "#"
+        },
+        "tether": {
+            "alt": "tether",
+            "img": "https://img.shields.io/badge/tether-168363?logo=tether&logoColor=white",
+            "url": "#"
+        },
+        "threejs": {
+            "alt": "ThreeJs",
+            "img": "https://img.shields.io/badge/ThreeJs-black?logo=three.js&logoColor=white",
+            "url": "#"
+        },
+        "tidal": {
+            "alt": "Tidal",
+            "img": "https://img.shields.io/badge/Tidal-000000?logo=Tidal&logoColor=white",
+            "url": "#"
+        },
+        "tiktok": {
+            "alt": "TikTok",
+            "img": "https://img.shields.io/badge/TikTok-000000?logo=tiktok&logoColor=white",
+            "url": "#"
+        },
+        "tmux": {
+            "alt": "tmux",
+            "img": "https://img.shields.io/badge/tmux-1BB91F?logo=tmux&logoColor=white",
+            "url": "#"
+        },
+        "todoist": {
+            "alt": "Todoist",
+            "img": "https://img.shields.io/badge/Todoist-E44332?logo=todoist&logoColor=white",
+            "url": "#"
+        },
+        "topcoder": {
+            "alt": "Topcoder",
+            "img": "https://img.shields.io/badge/Topcoder-29A7DF?logo=Topcoder&logoColor=white",
+            "url": "#"
+        },
+        "toptal": {
+            "alt": "Toptal",
+            "img": "https://img.shields.io/badge/Toptal-3863A0?logo=Toptal&logoColor=white",
+            "url": "#"
+        },
+        "tor_browser": {
+            "alt": "Tor_Browser",
+            "img": "https://img.shields.io/badge/Tor_Browser-7D4698?logo=Tor-Browser&logoColor=white",
+            "url": "#"
+        },
+        "travis_ci": {
+            "alt": "travis_CI",
+            "img": "https://img.shields.io/badge/travis_CI-3EAAAF?logo=travisci&logoColor=white",
+            "url": "#"
+        },
+        "trello": {
+            "alt": "Trello",
+            "img": "https://img.shields.io/badge/Trello-0052CC?logo=trello&logoColor=white",
+            "url": "#"
+        },
+        "tron-network": {
+            "alt": "TRON-NETWORK",
+            "img": "https://tinyurl.com/5ap8s6j",
+            "url": "#"
+        },
+        "ts": {
+            "alt": "ts",
+            "img": "https://img.shields.io/badge/ts--node-3178C6?logo=ts-node&logoColor=white",
+            "url": "#"
+        },
+        "tumblr": {
+            "alt": "Tumblr",
+            "img": "https://img.shields.io/badge/Tumblr-%2336465D.svg?&logo=Tumblr&logoColor=white",
+            "url": "#"
+        },
+        "tutanota": {
+            "alt": "Tutanota",
+            "img": "https://img.shields.io/badge/Tutanota-840010?logo=Tutanota&logoColor=white",
+            "url": "#"
+        },
+        "twilio": {
+            "alt": "Twilio",
+            "img": "https://img.shields.io/badge/Twilio-F22F46?logo=Twilio&logoColor=white",
+            "url": "#"
+        },
+        "twitch": {
+            "alt": "Twitch",
+            "img": "https://img.shields.io/badge/Twitch-9146FF?logo=twitch&logoColor=white",
+            "url": "#"
+        },
+        "twitter": {
+            "alt": "Twitter",
+            "img": "https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white",
+            "url": "#"
+        },
+        "typescript": {
+            "alt": "TypeScript",
+            "img": "https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white",
+            "url": "#"
+        },
+        "uber_eats": {
+            "alt": "Uber_Eats",
+            "img": "https://img.shields.io/badge/Uber_Eats-5FB709?logo=uber-eats&logoColor=white",
+            "url": "#"
+        },
+        "ubuntu": {
+            "alt": "Ubuntu",
+            "img": "https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white",
+            "url": "#"
+        },
+        "udacity": {
+            "alt": "Udacity",
+            "img": "https://img.shields.io/badge/Udacity-grey?logo=udacity&logoColor=#5FCFEE",
+            "url": "#"
+        },
+        "udemy": {
+            "alt": "Udemy",
+            "img": "https://img.shields.io/badge/Udemy-EC5252?logo=Udemy&logoColor=white",
+            "url": "#"
+        },
+        "underscore-js": {
+            "alt": "underscore js",
+            "img": "https://img.shields.io/badge/underscore%20js-0371B5?logo=underscore.js&logoColor=white",
+            "url": "#"
+        },
+        "unity": {
+            "alt": "Unity",
+            "img": "https://img.shields.io/badge/Unity-100000?logo=unity&logoColor=white",
+            "url": "#"
+        },
+        "unreal-engine": {
+            "alt": "Unreal Engine",
+            "img": "https://img.shields.io/badge/-Unreal%20Engine-313131?logo=unreal-engine&logoColor=white",
+            "url": "#"
+        },
+        "unsplash": {
+            "alt": "Unsplash",
+            "img": "https://img.shields.io/badge/Unsplash-000000?logo=Unsplash&logoColor=white",
+            "url": "#"
+        },
+        "upcloud": {
+            "alt": "upcloud",
+            "img": "https://img.shields.io/badge/upcloud-7B00FF?logo=upcloud&logoColor=white",
+            "url": "#"
+        },
+        "upwork": {
+            "alt": "UpWork",
+            "img": "https://img.shields.io/badge/UpWork-6FDA44?logo=Upwork&logoColor=white",
+            "url": "#"
+        },
+        "vaadin": {
+            "alt": "Vaadin",
+            "img": "https://img.shields.io/badge/Vaadin-00B4F0?logo=Vaadin&logoColor=white",
+            "url": "#"
+        },
+        "vagrant": {
+            "alt": "Vagrant",
+            "img": "https://img.shields.io/badge/Vagrant-1868F2?logo=Vagrant&logoColor=white",
+            "url": "#"
+        },
+        "valorant": {
+            "alt": "Valorant",
+            "img": "https://img.shields.io/badge/Valorant-fa4454?logo=valorant&logoColor=white",
+            "url": "#"
+        },
+        "vercel": {
+            "alt": "Vercel",
+            "img": "https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white",
+            "url": "#"
+        },
+        "viber": {
+            "alt": "viber",
+            "img": "https://img.shields.io/badge/viber-685EA9?logo=viber&logoColor=white",
+            "url": "#"
+        },
+        "vim": {
+            "alt": "VIM",
+            "img": "https://img.shields.io/badge/VIM-%2311AB00.svg?&logo=vim&logoColor=white",
+            "url": "#"
+        },
+        "virtualbox": {
+            "alt": "VirtualBox",
+            "img": "https://img.shields.io/badge/VirtualBox-21416b?logo=VirtualBox&logoColor=white",
+            "url": "#"
+        },
+        "visual_studio": {
+            "alt": "Visual_Studio",
+            "img": "https://img.shields.io/badge/Visual_Studio-5C2D91?logo=visual%20studio&logoColor=white",
+            "url": "#"
+        },
+        "visual_studio_code": {
+            "alt": "Visual_Studio_Code",
+            "img": "https://img.shields.io/badge/Visual_Studio_Code-0078D4?logo=visual%20studio%20code&logoColor=white",
+            "url": "#"
+        },
+        "vite": {
+            "alt": "Vite",
+            "img": "https://img.shields.io/badge/Vite-B73BFE?logo=vite&logoColor=FFD62E",
+            "url": "#"
+        },
+        "vivaldi": {
+            "alt": "Vivaldi",
+            "img": "https://img.shields.io/badge/Vivaldi-EF3939?logo=Vivaldi&logoColor=white",
+            "url": "#"
+        },
+        "vmware": {
+            "alt": "VMware",
+            "img": "https://img.shields.io/badge/VMware-231f20?logo=VMware&logoColor=white",
+            "url": "#"
+        },
+        "vscode": {
+            "alt": "VSCode",
+            "img": "https://img.shields.io/badge/VSCode-0078D4?logo=visual%20studio%20code&logoColor=white",
+            "url": "#"
+        },
+        "vue-js": {
+            "alt": "Vue-js",
+            "img": "https://img.shields.io/badge/Vue.js-35495E?logo=vuedotjs&logoColor=4FC08D",
+            "url": "#"
+        },
+        "vuetify": {
+            "alt": "Vuetify",
+            "img": "https://img.shields.io/badge/Vuetify-1867C0?logo=vuetify&logoColor=white",
+            "url": "#"
+        },
+        "wakatime": {
+            "alt": "WakaTime",
+            "img": "https://img.shields.io/badge/WakaTime-000000?logo=WakaTime&logoColor=white",
+            "url": "#"
+        },
+        "wasmcloud": {
+            "alt": "wasmCloud",
+            "img": "https://img.shields.io/badge/wasmCloud-00BC8E?logo=wasmCloud&logoColor=white",
+            "url": "#"
+        },
+        "wear-os": {
+            "alt": "Wear-OS",
+            "img": "https://img.shields.io/badge/-Wear%20OS-4285F4?logo=wear-os&logoColor=white",
+            "url": "#"
+        },
+        "web3-js": {
+            "alt": "web3-js",
+            "img": "https://img.shields.io/badge/web3.js-F16822?logo=web3.js&logoColor=white",
+            "url": "#"
+        },
+        "webassembly": {
+            "alt": "WebAssembly",
+            "img": "https://img.shields.io/badge/WebAssembly-654FF0?logo=WebAssembly&logoColor=white",
+            "url": "#"
+        },
+        "webpack": {
+            "alt": "Webpack",
+            "img": "https://img.shields.io/badge/Webpack-8DD6F9?logo=Webpack&logoColor=white",
+            "url": "#"
+        },
+        "website": {
+            "alt": "website",
+            "img": "https://img.shields.io/badge/website-000000?logo=About.me&logoColor=white",
+            "url": "#"
+        },
+        "webstorm": {
+            "alt": "WebStorm",
+            "img": "https://img.shields.io/badge/WebStorm-000000?logo=WebStorm&logoColor=white",
+            "url": "#"
+        },
+        "wechat": {
+            "alt": "WeChat",
+            "img": "https://img.shields.io/badge/WeChat-07C160?logo=wechat&logoColor=white",
+            "url": "#"
+        },
+        "wegame": {
+            "alt": "WeGame",
+            "img": "https://img.shields.io/badge/WeGame-FAAB00?logo=WeGame&logoColor=white",
+            "url": "#"
+        },
+        "weights_&_biases": {
+            "alt": "Weights_&_Biases",
+            "img": "https://img.shields.io/badge/Weights_&_Biases-FFBE00?logo=WeightsAndBiases&logoColor=white",
+            "url": "#"
+        },
+        "whatsapp": {
+            "alt": "WhatsApp",
+            "img": "https://img.shields.io/badge/WhatsApp-25D366?logo=whatsapp&logoColor=white",
+            "url": "#"
+        },
+        "wiki-js": {
+            "alt": "Wiki js",
+            "img": "https://img.shields.io/badge/Wiki%20js-1976D2?logo=Wikidotjs&logoColor=white",
+            "url": "#"
+        },
+        "windows": {
+            "alt": "Windows",
+            "img": "https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white",
+            "url": "#"
+        },
+        "windows-asus_zenbook_3": {
+            "alt": "Windows ASUS_Zenbook_3",
+            "img": "https://img.shields.io/badge/Windows%20ASUS_Zenbook_3-0078D6?logo=windows&logoColor=white",
+            "url": "#"
+        },
+        "windows-terminal": {
+            "alt": "windows terminal",
+            "img": "https://img.shields.io/badge/windows%20terminal-4D4D4D?logo=windows%20terminal&logoColor=white",
+            "url": "#"
+        },
+        "windows_95": {
+            "alt": "Windows_95",
+            "img": "https://img.shields.io/badge/Windows_95-008080?logo=windows-95&logoColor=white",
+            "url": "#"
+        },
+        "windows_xp": {
+            "alt": "Windows_XP",
+            "img": "https://img.shields.io/badge/Windows_XP-003399?logo=windows-xp&logoColor=white",
+            "url": "#"
+        },
+        "wire": {
+            "alt": "Wire",
+            "img": "https://img.shields.io/badge/Wire-B71C1C?logo=wire&logoColor=white",
+            "url": "#"
+        },
+        "wix": {
+            "alt": "Wix",
+            "img": "https://img.shields.io/badge/Wix-000?logo=wix&logoColor=white",
+            "url": "#"
+        },
+        "wordpress": {
+            "alt": "Wordpress",
+            "img": "https://img.shields.io/badge/Wordpress-21759B?logo=wordpress&logoColor=white",
+            "url": "#"
+        },
+        "xamarin": {
+            "alt": "Xamarin",
+            "img": "https://img.shields.io/badge/Xamarin-3498DB?logo=xamarin&logoColor=white",
+            "url": "#"
+        },
+        "xampp": {
+            "alt": "Xampp",
+            "img": "https://img.shields.io/badge/Xampp-F37623?logo=xampp&logoColor=white",
+            "url": "#"
+        },
+        "xbox": {
+            "alt": "Xbox",
+            "img": "https://img.shields.io/badge/Xbox-107C10?logo=xbox&logoColor=white",
+            "url": "#"
+        },
+        "xcode": {
+            "alt": "Xcode",
+            "img": "https://img.shields.io/badge/Xcode-007ACC?logo=Xcode&logoColor=white",
+            "url": "#"
+        },
+        "xda-developers": {
+            "alt": "xda developers",
+            "img": "https://img.shields.io/badge/xda%20developers-2DAAE9?logo=xda-developers&logoColor=white",
+            "url": "#"
+        },
+        "xiaomi-laptop": {
+            "alt": "xiaomi laptop",
+            "img": "https://img.shields.io/badge/xiaomi%20laptop-FF6900?logo=xiaomi&logoColor=white",
+            "url": "#"
+        },
+        "xrp": {
+            "alt": "Xrp",
+            "img": "https://img.shields.io/badge/Xrp-black?logo=xrp&logoColor=white",
+            "url": "#"
+        },
+        "yarn": {
+            "alt": "Yarn",
+            "img": "https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=white",
+            "url": "#"
+        },
+        "youtube": {
+            "alt": "YouTube",
+            "img": "https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white",
+            "url": "#"
+        },
+        "youtube_gaming": {
+            "alt": "YouTube_Gaming",
+            "img": "https://img.shields.io/badge/YouTube_Gaming-FF0000?logo=youtube-gaming&logoColor=white",
+            "url": "#"
+        },
+        "youtube_music": {
+            "alt": "YouTube_Music",
+            "img": "https://img.shields.io/badge/YouTube_Music-FF0000?logo=youtube-music&logoColor=white",
+            "url": "#"
+        },
+        "zcash": {
+            "alt": "Zcash",
+            "img": "https://img.shields.io/badge/Zcash-F4B728?logo=zcash&logoColor=000",
+            "url": "#"
+        },
+        "zig": {
+            "alt": "zig",
+            "img": "https://img.shields.io/badge/zig-F7A41D?logo=zig&logoColor=white",
+            "url": "#"
+        },
+        "zomato": {
+            "alt": "Zomato",
+            "img": "https://img.shields.io/badge/Zomato-E23744?logo=zomato&logoColor=white",
+            "url": "#"
+        },
+        "zoom": {
+            "alt": "Zoom",
+            "img": "https://img.shields.io/badge/Zoom-2D8CFF?logo=zoom&logoColor=white",
+            "url": "#"
+        },
+        "allegro": {
+            "alt": "Allegro",
+            "img": "https://img.shields.io/badge/PCB-FF5A00?logo=Allegro&logoColor=white",
+            "url": "#"
+        },
+        "zorin-os": {
+            "alt": "Zorin OS",
+            "img": "https://img.shields.io/badge/Zorin%20OS-0CC1F3?logo=zorin&logoColor=white",
+            "url": "#"
+        },
+        "вконтакте": {
+            "alt": "вконтакте",
+            "img": "https://img.shields.io/badge/вконтакте-%232E87FB.svg?&logo=vk&logoColor=white",
+            "url": "#"
+        },
+        "matlab": {
+            "alt": "Matlab",
+            "img": "https://img.shields.io/badge/Matlab-blue?",
+            "url": "#"
+        },
+        "simulink": {
+            "alt": "simulink",
+            "img": {
+                "__formatter__": {
+                    "{{format}}": "shield",
+                    "delimiter": ""
+                },
+                "info": {
+                    "grey_text": "",
+                    "color_text": "Simulink",
+                    "color": "orange"
+                }
+            },
+            "url": "#"
+        },
+        "stm32-hal": {
+            "alt": "STM32-HAL",
+            "img": {
+                "__formatter__": {
+                    "{{format}}": "shield-ext",
+                    "delimiter": ""
+                },
+                "info": {
+                    "grey_text": "",
+                    "color_text": "STM32 HAL",
+                    "color": "#03234B",
+                    "logo_color": "white",
+                    "logo_id": "STMicroelectronics"
+                }
+            },
+            "url": "#"
+        },
+        "stm32": {
+            "alt": "STM32",
+            "img": {
+                "__formatter__": {
+                    "{{format}}": "shield-ext",
+                    "delimiter": ""
+                },
+                "info": {
+                    "grey_text": "",
+                    "color_text": "STM32",
+                    "color": "#03234B",
+                    "logo_color": "white",
+                    "logo_id": "STMicroelectronics"
+                }
+            },
+            "url": "#"
+        },
+        "solidworks": {
+            "alt": "Solidworks",
+            "img": {
+                "__formatter__": {
+                    "{{format}}": "shield",
+                    "delimiter": ""
+                },
+                "info": {
+                    "grey_text": "",
+                    "color_text": "Solidworks",
+                    "color": "critical"
+                }
+            },
+            "url": "#"
+        },
+        "uml": {
+            "alt": "UML",
+            "img": {
+                "__formatter__": {
+                    "{{format}}": "shield",
+                    "delimiter": ""
+                },
+                "info": {
+                    "grey_text": "",
+                    "color_text": "UML",
+                    "color": "brightgreen"
+                }
+            },
+            "url": "#"
+        },
+        "project-management": {
+            "alt": "Project Management",
+            "img": {
+                "__formatter__": {
+                    "{{format}}": "shield",
+                    "delimiter": ""
+                },
+                "info": {
+                    "grey_text": "",
+                    "color_text": "Project Management",
+                    "color": "FAE109"
+                }
+            },
+            "url": "#"
+        },
+        "pandoc": {
+            "alt": "Pandoc",
+            "img": {
+                "__formatter__": {
+                    "{{format}}": "shield",
+                    "delimiter": ""
+                },
+                "info": {
+                    "grey_text": "",
+                    "color_text": "Pandoc",
+                    "color": "yellow"
+                }
+            },
+            "url": "#"
+        },
+        "applescript": {
+            "alt": "AppleScript",
+            "img": {
+                "__formatter__": {
+                    "{{format}}": "shield",
+                    "delimiter": ""
+                },
+                "info": {
+                    "grey_text": "",
+                    "color_text": "AppleScript",
+                    "color": "blue"
+                }
+            },
+            "url": "#"
+        },
+        "shortcuts": {
+            "alt": "Shortcuts",
+            "img": {
+                "__formatter__": {
+                    "{{format}}": "shield",
+                    "delimiter": ""
+                },
+                "info": {
+                    "grey_text": "Apple",
+                    "color_text": "Shortcuts",
+                    "color": "blue"
+                }
+            },
+            "url": "#"
+        }
+    }
+}

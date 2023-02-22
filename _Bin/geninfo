@@ -1,0 +1,24 @@
+#!/bin/bash
+# * this scrpit is used to generate README.md from json
+PROJECT_PATH="$1"
+
+if [ -z "$PROJECT_PATH" ]
+then
+      echo "\$PROJECT_PATH is empty"
+      PROJECT_PATH="$(pwd)"
+else
+      echo "\$PROJECT_PATH is NOT empty"
+fi
+
+echo "Project Path is: $PROJECT_PATH"
+
+PACKAGE_JSON_PATH="$PROJECT_PATH/package.json"
+# PACKAGE_JSON_PATH="$PROJECT_PATH/_Config/_readme_package.json"
+README_BLUEPRINT_JSON_PATH="$PROJECT_PATH/_README/_readme_blueprint.json"
+README_BLUEPRINT_MARKDOWN_PATH="$PROJECT_PATH/_README/_project_info_blueprint.json"
+# README_BLUEPRINT_MARKDOWN_PATH="$PROJECT_PATH/_Test/test_error.md"
+# README_BLUEPRINT_MARKDOWN_PATH="$PROJECT_PATH/_Test/test_element.md"
+README_CONFIG_DATA_JSON_PATH="$PROJECT_PATH/_Config/config_data.json"
+README_MARKDOWN_PATH="$PROJECT_PATH/.gen_project_info.json"
+
+npx mdgen generate --silent --config "$README_BLUEPRINT_JSON_PATH" --package "$PACKAGE_JSON_PATH" --input "$README_BLUEPRINT_MARKDOWN_PATH" --output "$README_MARKDOWN_PATH" --data "$README_CONFIG_DATA_JSON_PATH"

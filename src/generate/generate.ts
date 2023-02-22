@@ -162,7 +162,10 @@ export async function generate ({config, configPath, generators}: {config: IConf
 	readme = readme.replace(/href="[\s\t]*"/gm, "")
 
 	const warning = `<!--- Source file(s) of this README: -->\n<!--- ${Array.isArray(blueprint_filename_list) ? blueprint_filename_list.join(" ") : blueprint_filename_list} -->\n`;
-	readme = `${warning}${readme}`;
+	if (!silent) {
+		readme = `${warning}${readme}`;
+	}
+	
 
 	testlog(`TEST0010 generate(): 7`)
 	// * Check broken links
