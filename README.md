@@ -109,7 +109,7 @@ JSON: package: "package.json" -->
 ## About The Project
 
 
-When I worked on multiple projects simultaneously, the complexity of updating information that is repeatedly referenced in the `README.md` became apparent to me. Adding badges and uniquely styled SVGs to the `README.md` file on GitHub was also a challenge; despite trying numerous open-source tools, I was unable to find one that met my needs while also being intuitive to use. Therefore, I spent a month and a half developing this Enhanced Markdown Generator based on the code framework of a [readme-generator](https://github.com/andreasbm/readme) project. Then, I adapt my Enhanced Markdown Generator to the markdown template I developed for all of my projects. My Enhanced Markdown Generator also serves as the backbone for all of my GitHub repositories.
+When I worked on multiple projects simultaneously, the complexity of updating information that is repeatedly referenced in the `README.md` became apparent to me. Adding badges and uniquely styled SVGs to the `README.md` file on GitHub was also a challenge; despite trying numerous open-source tools, I was unable to find one that met my needs while also being intuitive to use. Therefore, I spent a month and a half developing this Enhanced Markdown Generator based on the code framework of a [readme-generator](https://github.com/andreasbm/readme) project. Then, I adapt my Enhanced Markdown Generator to the markdown template I developed for all of my projects, and it also serves as the backbone for all of my GitHub repositories.
 
 
 
