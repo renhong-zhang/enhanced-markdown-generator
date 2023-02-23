@@ -773,8 +773,11 @@ Detailed changes for each release are documented in the [release notes](https://
 ## Code Contributors
 
 Thank you to all the people who already contributed to Enhanced Markdown Generator!
-<a href="https://github.com/renhong-zhang/enhanced-markdown-generator/contributors"><img
-    src="https://opencollective.com/enhanced-markdown-generator/contributors.svg?width=890" /></a>
+<p align="center">
+    <a href="https://github.com/renhong-zhang/enhanced-markdown-generator/contributors">
+        <img src="https://contrib.rocks/image?repo=renhong-zhang/enhanced-markdown-generator" />
+    </a>
+</p>
 
 <p align="center"><a href="#contributing"><img align="center" width="100%" src="assets/line.svg"/></a></p>
 
