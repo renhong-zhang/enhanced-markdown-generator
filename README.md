@@ -62,6 +62,8 @@ JSON: package: "package.json" -->
 <li><a href="#getting-started">Getting Started</a></li>
 <ul><li><a href="#prerequisites">Prerequisites</a></li></ul>
 <ul><li><a href="#installation">Installation</a></li></ul>
+<ul><ul><li><a href="#install-the-package">Install the Package</a></li></ul></ul>
+<ul><ul><li><a href="#complie-and-install">Complie and Install</a></li></ul></ul>
 <li><a href="#usage">Usage</a></li>
 <ul><li><a href="#quick-start">Quick Start</a></li></ul>
 <ul><li><a href="#file-structure">File Structure</a></li></ul>
@@ -145,6 +147,24 @@ With the features mentioned below, you could easily write a Markdown file like t
 
 ### Installation
 
+
+There are two installation options: install the prebuilt package or compile and install the source code.
+
+
+#### Install the Package
+
+Download the `.tgz` package from the [latest release](https://github.com/renhong-zhang/enhanced-markdown-generator/releases/latest). And install the downloaded file with:
+```shell
+npm install --global PATH_TO_THE_FILE.tgz
+```
+Example:
+```shell
+npm install --global renhong-zhang-enhanced-markdown-generator-1.0.0.tgz
+```
+
+
+
+#### Complie and Install
 
 Compile and install the Source Code with running the script `install.sh` in the project directory:
 ```shell
@@ -674,6 +694,8 @@ With `{-- template:toc --}`, a foldable TOC is generated as below, click the lit
 <li><a href="#getting-started">Getting Started</a></li>
 <ul><li><a href="#prerequisites">Prerequisites</a></li></ul>
 <ul><li><a href="#installation">Installation</a></li></ul>
+<ul><ul><li><a href="#install-the-package">Install the Package</a></li></ul></ul>
+<ul><ul><li><a href="#complie-and-install">Complie and Install</a></li></ul></ul>
 <li><a href="#usage">Usage</a></li>
 <ul><li><a href="#quick-start">Quick Start</a></li></ul>
 <ul><li><a href="#file-structure">File Structure</a></li></ul>

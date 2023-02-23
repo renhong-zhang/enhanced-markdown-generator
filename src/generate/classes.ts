@@ -22,6 +22,9 @@ testlog(START_TIME, `start-time`)
 // ~ CONST for External Setup
 export const ALIAS_FORMAT_KEY = "format"
 export const ALIAS_DELIMITER_KEY = "delimiter"
+export const ALIAS_FORMATTER_PREFIX_KEY = "prefix"
+export const ALIAS_FORMATTER_SUFFIX_KEY = "suffix"
+
 export const ALIAS_PREFIX_KEY = "prefix"
 export const ALIAS_SUFFIX_KEY = "suffix"
 export const ALIAS_PATH_KEY = "path"
@@ -1516,10 +1519,14 @@ export class Exporter {
 export class Formatter {
     private _format: string = "";
     private _delimiter: string = "";
+    private _prefix: string = FORMAT_PREFIX_ESCAPED; //* Escaped Prefix
+    private _suffix: string = FORMAT_SUFFIX_ESCAPED; //* Escaped Suffix
     private _cell: Cell = new Cell();
     private _key_map: KeyMapDict = {
         [ALIAS_FORMAT_KEY]: (v: any) => (this.format_ = String(v)),
         [ALIAS_DELIMITER_KEY]: (v: any) => (this.delimiter_ = String(v)),
+        [ALIAS_FORMATTER_PREFIX_KEY]: (v: any) => (this.prefix_ = helper_0.EscapeRegexp(v)),
+        [ALIAS_FORMATTER_SUFFIX_KEY]: (v: any) => (this.suffix_ = helper_0.EscapeRegexp(v)),
     }
     constructor() {
     }
@@ -1534,6 +1541,18 @@ export class Formatter {
     }
     get delimiter_() {
         return this._delimiter;
+    }
+    set prefix_(v: string) {
+        this._prefix = v;
+    }
+    get prefix_() {
+        return this._prefix;
+    }
+    set suffix_(v: string) {
+        this._suffix = v;
+    }
+    get suffix_() {
+        return this._suffix;
     }
 
     set cell_(v: Cell) {
@@ -1779,7 +1798,7 @@ export class Formatter {
 
         let replace_key = '.*?';
 
-        let replace_ori_string = `${FORMAT_PREFIX_ESCAPED} *(${replace_key.trim()})(:[:_\\w-]*)* *?${FORMAT_SUFFIX_ESCAPED}`;
+        let replace_ori_string = `${this.prefix_} *(${replace_key.trim()})(:[:_\\w-]*)* *?${this.suffix_}`;
         testlog(`TEST00 Replace Ori String: ${replace_ori_string}`);
         testlog(`TEST0000 format_string: ${this.format_}`);
         let replace_ori_string_regex_obj = new RegExp(replace_ori_string, "g");
