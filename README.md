@@ -34,11 +34,11 @@ JSON: package: "package.json" -->
 <table border="0" width="100%" id="badge" cellspacing="0" cellpadding="0">
   <tr>
     <td>Prerequisites</td>
-    <td><a href="#"><img alt="Node-js" src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=flat" height="20" /></a> <a href="#"><img alt="npm" src="https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white&style=flat" height="20" /></a></td>
+    <td><a href="https://www.bing.com/search?q=Node-js"><img alt="Node-js" src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=flat" height="20" /></a> <a href="https://www.bing.com/search?q=npm"><img alt="npm" src="https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white&style=flat" height="20" /></a></td>
   </tr>
   <tr>
     <td>Languages & Tools</td>
-    <td><a href="#"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white&style=flat" height="20" /></a> <a href="#"><img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white&style=flat" height="20" /></a></td>
+    <td><a href="https://www.bing.com/search?q=TypeScript"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white&style=flat" height="20" /></a> <a href="https://www.bing.com/search?q=Markdown"><img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white&style=flat" height="20" /></a></td>
   </tr>
   <tr>
     <td>License</td>
@@ -121,7 +121,7 @@ When I worked on multiple projects simultaneously, the complexity of updating in
   <tr>
     <td><b>Major Frameworks/Libraries</b></td>
     <td>
-      <a href="#"><img alt="Node-js" src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=flat" height="20" /></a><br><a href="#"><img alt="npm" src="https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white&style=flat" height="20" /></a><br><a href="#"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white&style=flat" height="20" /></a>
+      <a href="https://www.bing.com/search?q=Node-js"><img alt="Node-js" src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=flat" height="20" /></a><br><a href="https://www.bing.com/search?q=npm"><img alt="npm" src="https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white&style=flat" height="20" /></a><br><a href="https://www.bing.com/search?q=TypeScript"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white&style=flat" height="20" /></a>
     </td>
   </tr>
 </table>
@@ -470,7 +470,7 @@ value 0
 ### Formatter
 
 The Formatter is the key feature that makes quick styling elements possible. For example, you could easily use badges like below in your markdown file with little code.
-<a href="#"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white&style=flat" height="20" /></a> <a href="#"><img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white&style=flat" height="20" /></a>
+<a href="https://www.bing.com/search?q=TypeScript"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white&style=flat" height="20" /></a> <a href="https://www.bing.com/search?q=Markdown"><img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white&style=flat" height="20" /></a>
 
 
 
@@ -812,7 +812,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 <br>
 <div align="center">
-  <a href="https://github.com/renhong-zhang/enhanced-markdown-generator/blob/dev/.github/CONTRIBUTING.md"><img alt="Contributing Guide" width="40%"
+  <a href="https://github.com/renhong-zhang/enhanced-markdown-generator/CONTRIBUTING.md"><img alt="Contributing Guide" width="40%"
       src="https://img.shields.io/badge/Guide-CONTRIBUTE%20NOW!-success"></a>
 </div>
 <br>
