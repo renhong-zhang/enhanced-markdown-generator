@@ -812,7 +812,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 <br>
 <div align="center">
-  <a href="https://github.com/renhong-zhang/enhanced-markdown-generator/CONTRIBUTING.md"><img alt="Contributing Guide" width="40%"
+  <a href="https://github.com/renhong-zhang/enhanced-markdown-generator/blob/main/CONTRIBUTING.md"><img alt="Contributing Guide" width="40%"
       src="https://img.shields.io/badge/Guide-CONTRIBUTE%20NOW!-success"></a>
 </div>
 <br>
